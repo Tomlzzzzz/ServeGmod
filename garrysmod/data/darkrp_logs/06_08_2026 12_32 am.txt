@@ -21,3 +21,4 @@ Mon Jun  8 00:45:45 2026	Valll (STEAM_0:0:512645622) spawned Vehicle prop_vehicl
 Mon Jun  8 00:46:29 2026	Tomlzzz (STEAM_0:0:489915195) spawned Vehicle prop_vehicle_jeep (azok30_renault_scenic_2)
 Mon Jun  8 00:47:11 2026	Tomlzzz was killed by Themself with a suicide trick
 Mon Jun  8 00:47:12 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 00:57:35 2026	Tomlzzz (STEAM_0:0:489915195) disconnected

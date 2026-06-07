@@ -331,10 +331,6 @@
 	"1782384753"
 	{
 		"name"		"Azok30 - LAMBORGHINI URUS 2019 TOPCAR DESIGN [Nairor]"
-	}
-	"1182471500"
-	{
-		"name"		"EasyChat"
-		"path"		"b:\servegmod\steam_cache\content\4000\1182471500"
+		"path"		"b:\servegmod\steam_cache\content\4000\1782384753\779601777697476643_legacy.bin"
 	}
 }

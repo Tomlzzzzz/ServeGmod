@@ -16,11 +16,7 @@
 *.nav
 *.gma
 
-# On exclut volontairement les très gros fichiers dans les addons
-*.vpk
-*.bsp
-*.nav
-*.gma
+
 
 # Ignorer les logs, les bases de données SQL locales et les crash dumps
 *.log

@@ -96,3 +96,12 @@
 [00:45:45] Valll<STEAM_0:0:512645622> spawned vehicle models/azok30/renault_scenic_2.mdl
 [00:46:29] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_scenic_2.mdl
 [00:47:11] Tomlzzz suicided!
+[00:57:35] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[00:57:57] New map: gm_construct
+[00:58:23] Client "Tomlzzz" connected.
+[00:58:33] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[00:58:53] Client "Valll" connected.
+[00:59:03] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 10 seconds).
