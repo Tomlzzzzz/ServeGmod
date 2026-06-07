@@ -1,0 +1,10 @@
+Sun Jun  7 05:03:18 2026	Valll (STEAM_0:0:512645622): /dropmoney 120000000
+Sun Jun  7 05:03:19 2026	Valll (STEAM_0:0:512645622) has dropped $120,000,000
+Sun Jun  7 05:03:56 2026	Valll (STEAM_0:0:512645622): /dropmoney 5000000000
+Sun Jun  7 05:04:28 2026	Valll (STEAM_0:0:512645622): /dropmoney 100000000000
+Sun Jun  7 05:04:40 2026	Valll (STEAM_0:0:512645622): /dropmoney 1200000000
+Sun Jun  7 05:04:41 2026	Valll (STEAM_0:0:512645622) has dropped $1,200,000,000
+Sun Jun  7 05:05:50 2026	Valll (STEAM_0:0:512645622) disconnected
+Sun Jun  7 05:06:40 2026	Valll (STEAM_0:0:512645622) has joined the game
+Sun Jun  7 05:06:40 2026	Valll (STEAM_0:0:512645622) spawned
+Sun Jun  7 05:13:01 2026	Tomlzzz (STEAM_0:0:489915195) disconnected

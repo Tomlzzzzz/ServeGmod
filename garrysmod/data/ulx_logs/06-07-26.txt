@@ -1,0 +1,320 @@
+[03:16:38] New map: gm_construct
+[03:16:54] Client "Tomlzzz" connected.
+[03:16:58] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[03:18:22] Tomlzzz: !menu
+[03:19:11] (Console) added Tomlzzz to group superadmin
+[03:29:11] Client "Valll" connected.
+[03:30:41] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+[03:30:42] Server is shutting down/changing levels.
+
+
+
+[03:30:50] New map: gm_construct
+[03:30:59] Client "Tomlzzz" connected.
+[03:30:59] Client "Valll" connected.
+[03:31:02] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 3 seconds).
+[03:31:10] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 11 seconds).
+[03:32:45] (Console) added Valll to group superadmin
+[03:50:54] Valll was killed by npc_manhack
+[03:52:32] Valll killed Tomlzzz using player
+[03:53:32] Valll killed Tomlzzz using weapon_shotgun
+[04:42:59] Valll killed Tomlzzz using rpg_missile
+[04:44:50] Valll killed Tomlzzz using player
+[04:45:19] Valll suicided!
+[04:45:31] Valll: /clock
+[04:45:35] Valll: agp
+[04:50:11] Valll: /spawn money
+[04:57:50] Tomlzzz was killed by npc_manhack
+[05:02:30] Valll: /dropmoney 1000
+[05:03:18] Valll: /dropmoney 120000000
+[05:03:56] Valll: /dropmoney 5000000000
+[05:04:28] Valll: /dropmoney 100000000000
+[05:04:40] Valll: /dropmoney 1200000000
+[05:05:50] Dropped "Valll" from server<STEAM_0:0:512645622>
+[05:06:26] Client "Valll" connected.
+[05:06:39] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 13 seconds).
+[05:06:56] Valll<STEAM_0:0:512645622> spawned model models/props_c17/furnituresink001a.mdl
+[05:13:01] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[16:09:20] New map: gm_construct
+[16:10:39] Client "Tomlzzz" connected.
+[16:10:51] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 12 seconds).
+[16:11:41] Client "Valll" connected.
+[16:11:49] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 8 seconds).
+[16:29:13] Server is shutting down/changing levels.
+
+
+
+[16:29:14] New map: gm_construct
+[16:29:18] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[16:29:24] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 11 seconds).
+[16:34:34] Valll: de
+[16:36:30] Valll: typo full kobralost
+[16:53:35] Server is shutting down/changing levels.
+
+
+
+[16:53:36] New map: gm_construct
+[16:53:40] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[16:53:41] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 5 seconds).
+[16:55:48] Dropped "Valll" from server<STEAM_0:0:512645622>
+[16:56:22] Client "Valll" connected.
+[16:56:31] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 9 seconds).
+[17:01:58] Dropped "Valll" from server<STEAM_0:0:512645622>
+[17:01:59] Client "Valll" connected.
+[17:02:05] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 6 seconds).
+[17:02:11] Dropped "Valll" from server<STEAM_0:0:512645622>
+[17:05:33] Client "Valll" connected.
+[17:05:41] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 8 seconds).
+[17:06:30] Dropped "Valll" from server<STEAM_0:0:512645622>
+[17:08:54] Client "Valll" connected.
+[17:09:01] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 7 seconds).
+[17:10:13] Valll<STEAM_0:0:512645622> spawned model models/props_c17/furnituretable003a.mdl
+[17:10:50] Valll killed Tomlzzz using player
+[17:11:02] Valll was killed by npc_manhack
+[17:11:19] Valll killed Tomlzzz using player
+[17:11:32] Valll was killed by npc_manhack
+[17:11:55] Valll killed Tomlzzz using rpg_missile
+[17:12:24] Server is shutting down/changing levels.
+
+
+
+[17:12:25] New map: gm_construct
+[17:12:29] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[17:12:30] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 5 seconds).
+[17:13:05] Valll<STEAM_0:0:512645622> spawned model models/props_trainstation/tracksign08.mdl
+[17:13:21] Valll<STEAM_0:0:512645622> spawned model models/props_borealis/bluebarrel001.mdl
+[17:13:26] Valll<STEAM_0:0:512645622> spawned model models/props_doors/door03_slotted_left.mdl
+[17:22:33] Server is shutting down/changing levels.
+
+
+
+[17:22:34] New map: gm_construct
+[17:22:38] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[17:22:44] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 10 seconds).
+[17:24:40] Dropped "Valll" from server<STEAM_0:0:512645622>
+[17:39:48] Server is shutting down/changing levels.
+
+
+
+[17:39:49] New map: gm_construct
+[17:39:53] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[17:55:32] Server is shutting down/changing levels.
+
+
+
+[17:55:33] New map: gm_construct
+[17:55:37] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[17:59:06] Server is shutting down/changing levels.
+
+
+
+[17:59:07] New map: gm_construct
+[17:59:10] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:00:47] Server is shutting down/changing levels.
+
+
+
+[18:00:48] New map: gm_construct
+[18:00:52] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[18:02:30] Server is shutting down/changing levels.
+
+
+
+[18:02:31] New map: gm_construct
+[18:02:35] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[18:06:08] Server is shutting down/changing levels.
+
+
+
+[18:06:08] New map: gm_construct
+[18:06:12] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:07:20] Server is shutting down/changing levels.
+
+
+
+[18:07:21] New map: gm_construct
+[18:07:25] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:08:23] Server is shutting down/changing levels.
+
+
+
+[18:08:24] New map: gm_construct
+[18:08:27] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:10:31] Server is shutting down/changing levels.
+
+
+
+[18:10:32] New map: gm_construct
+[18:10:36] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:14:35] Server is shutting down/changing levels.
+
+
+
+[18:14:36] New map: gm_construct
+[18:14:40] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[18:16:43] Server is shutting down/changing levels.
+
+
+
+[18:16:44] New map: gm_construct
+[18:16:48] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:18:27] Server is shutting down/changing levels.
+
+
+
+[18:18:28] New map: gm_construct
+[18:18:32] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:19:38] Server is shutting down/changing levels.
+
+
+
+[18:19:39] New map: gm_construct
+[18:19:43] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[18:20:33] Server is shutting down/changing levels.
+
+
+
+[18:20:34] New map: gm_construct
+[18:20:37] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:22:34] Server is shutting down/changing levels.
+
+
+
+[18:22:35] New map: gm_construct
+[18:22:39] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:23:55] Server is shutting down/changing levels.
+
+
+
+[18:23:56] New map: gm_construct
+[18:23:59] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[18:25:53] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[20:32:02] New map: gm_construct
+[20:35:10] Client "Tomlzzz" connected.
+[20:35:20] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[20:41:39] Server is shutting down/changing levels.
+
+
+
+[20:41:40] New map: gm_construct
+[20:41:44] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[20:43:26] Server is shutting down/changing levels.
+
+
+
+[20:43:27] New map: gm_construct
+[20:43:31] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[21:15:44] Server is shutting down/changing levels.
+
+
+
+[21:15:45] New map: gm_construct
+[21:15:49] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[21:34:47] Tomlzzz: /ooc
+[21:34:53] Tomlzzz: /ooc typo
+[21:35:01] Tomlzzz: /me
+[21:35:07] Tomlzzz: /me tmr 
+[21:49:39] Server is shutting down/changing levels.
+
+
+
+[21:49:40] New map: gm_construct
+[21:49:44] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[21:58:43] Tomlzzz: /drop
+[21:59:54] Server is shutting down/changing levels.
+
+
+
+[21:59:55] New map: gm_construct
+[22:00:00] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 6 seconds).
+[22:13:32] Server is shutting down/changing levels.
+
+
+
+[22:13:33] New map: gm_construct
+[22:13:37] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[22:29:41] Server is shutting down/changing levels.
+
+
+
+[22:29:42] New map: gm_construct
+[22:29:46] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 5 seconds).
+[22:48:12] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+[22:48:23] Client "Tomlzzz" connected.
+[22:48:27] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 4 seconds).
+[22:50:02] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[22:50:28] New map: gm_construct
+[22:52:30] Client "Tomlzzz" connected.
+[22:52:36] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 6 seconds).
+
+
+
+[22:53:25] New map: gm_construct
+[22:53:57] Client "Tomlzzz" connected.
+[22:54:03] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 6 seconds).
+[22:59:38] (Console) added Tomlzzz to group superadmin
+
+
+
+[23:03:48] New map: gm_construct
+[23:03:50] Client "Tomlzzz" connected.
+[23:03:53] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 3 seconds).
+[23:04:00] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[23:10:42] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+[23:10:46] Client "Tomlzzz" connected.
+[23:10:49] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 3 seconds).
+[23:11:36] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[23:20:56] New map: gm_construct
+
+
+
+[23:36:44] New map: gm_construct
+[23:36:49] Client "Tomlzzz" connected.
+[23:36:55] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 6 seconds).
+[23:37:02] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/tmax_530.mdl
+[23:37:15] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_clio_3_rs.mdl
+[23:37:16] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_clio_4.mdl
+[23:37:18] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_scenic_2.mdl
+[23:37:39] Tomlzzz<STEAM_0:0:489915195> spawned model models/smcars/2020_audi_rs6_avant.mdl
+[23:37:43] Tomlzzz<STEAM_0:0:489915195> spawned model models/smcars/2020_audi_rs6_avant.mdl
+[23:37:50] Tomlzzz<STEAM_0:0:489915195> spawned model models/smcars/2020_audi_rs6_avant.mdl
+[23:37:53] Tomlzzz<STEAM_0:0:489915195> spawned model models/smcars/2020_audi_rs6_avant.mdl
+[23:37:58] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[23:41:00] New map: gm_construct
+[23:41:19] Client "Tomlzzz" connected.
+[23:42:11] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 52 seconds).
+[23:42:27] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_clio_4.mdl
+[23:42:43] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/marcuscars/rs3.mdl
+[23:43:03] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/w4nou/peugeot_5008_2021.mdl
+[23:43:12] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/dannio/yamahar1.mdl
+[23:44:27] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[23:44:29] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[23:44:39] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[23:44:51] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[23:44:56] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rytrak/rmeganers.mdl
+[23:44:58] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rytrak/rmeganers.mdl
+[23:44:59] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/w4nou/r_master2019.mdl
+[23:45:11] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rebs/renault_traffic/renault_traffic.mdl
+[23:45:31] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_scenic_2.mdl
+[23:54:14] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[23:57:22] New map: gm_construct
+[23:58:26] Client "Tomlzzz" connected.
+<Logging continued in "data/ulx_logs/06-08-26.txt">

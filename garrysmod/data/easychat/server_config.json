@@ -1,0 +1,21 @@
+{
+	"AllowTagsInNames": true,
+	"UserGroups": {
+		"pipi2": {
+			"EmoteName": "",
+			"EmoteProvider": "",
+			"EmoteSize": -1,
+			"Tag": "zizi"
+		},
+		"pipi": {
+			"EmoteName": "caca",
+			"EmoteProvider": "",
+			"EmoteSize": -1,
+			"Tag": "zizi"
+		}
+	},
+	"AllowTagsInMessages": true,
+	"Titles": [],
+	"Tabs": [],
+	"OverrideClientSettings": true
+}

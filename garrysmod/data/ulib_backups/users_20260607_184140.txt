@@ -1,0 +1,22 @@
+"STEAM_0:0:512645622"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Valll"
+	"group"	"superadmin"
+}
+"STEAM_0:0:489915195"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Tomlzzz"
+	"group"	"superadmin"
+}

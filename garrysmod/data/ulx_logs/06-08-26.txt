@@ -1,0 +1,98 @@
+<Logging continued from "data/ulx_logs/06-07-26.txt">
+[00:00:17] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 111 seconds).
+[00:01:34] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/tmax_530.mdl
+[00:01:59] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/crsk_autos/mercedes-benz/g500_2008.mdl
+[00:02:23] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/lonewolfie/ren_meganers.mdl
+[00:02:47] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/marcuscars/rs3.mdl
+[00:02:56] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/lonewolfie/ren_meganers.mdl
+[00:03:00] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[00:03:14] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rytrak/rmeganers.mdl
+[00:03:26] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/w4nou/r_master2019.mdl
+[00:03:37] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/yamaha_yz_250.mdl
+[00:03:55] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/ktm_duke_690.mdl
+[00:03:56] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/kawasaki_ninja_h2r.mdl
+[00:04:18] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rebs/renault_traffic/renault_traffic.mdl
+[00:04:36] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/dannio/yamahar1.mdl
+[00:04:51] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/metrohd/vw_passat_variant.mdl
+[00:05:05] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/skyautomotive/audir8_17.mdl
+[00:05:21] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/crsk_autos/peugeot/308gti_2011.mdl
+[00:05:28] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/vw_sciroccor.mdl
+[00:05:41] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/vw_golfgti_14.mdl
+[00:05:57] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/gtaiv_airtug.mdl
+[00:06:12] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/w4nou/peugeot_5008_2021.mdl
+[00:06:45] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/diggercars/ren_twingo/v1.mdl
+[00:07:34] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[00:08:27] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/beetle.mdl
+[00:10:02] Client "Valll" connected.
+[00:10:19] Tomlzzz suicided!
+[00:10:26] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/vw_golfgti_14.mdl
+[00:11:54] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 112 seconds).
+[00:12:22] Valll<STEAM_0:0:512645622> spawned vehicle models/azok30/tmax_530.mdl
+[00:13:25] Valll<STEAM_0:0:512645622> spawned vehicle models/rebs/renault_traffic/renault_traffic.mdl
+[00:13:25] Valll was killed by prop_vehicle_jeep
+[00:13:42] Valll<STEAM_0:0:512645622> spawned vehicle models/rebs/renault_traffic/renault_traffic.mdl
+[00:13:46] Valll<STEAM_0:0:512645622> spawned vehicle models/marcuscars/rs3.mdl
+[00:14:04] Valll<STEAM_0:0:512645622> spawned vehicle models/marcuscars/rs3_pol.mdl
+[00:14:06] Valll<STEAM_0:0:512645622> spawned vehicle models/marcuscars/rs3_pol.mdl
+[00:14:09] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/ren_meganers.mdl
+[00:14:25] Valll<STEAM_0:0:512645622> spawned vehicle models/w4nou/r_master2019.mdl
+[00:14:28] Valll<STEAM_0:0:512645622> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[00:14:33] Valll<STEAM_0:0:512645622> spawned vehicle models/rytrak/rmeganers.mdl
+[00:14:36] Valll<STEAM_0:0:512645622> spawned vehicle models/realistic_bike/yamaha_yz_250.mdl
+[00:15:26] Valll<STEAM_0:0:512645622> spawned vehicle models/rebs/renault_traffic/renault_traffic.mdl
+[00:15:51] Valll<STEAM_0:0:512645622> spawned vehicle models/skyautomotive/audir8_17.mdl
+[00:16:51] Valll<STEAM_0:0:512645622> spawned vehicle models/smcars/2020_audi_rs6_avant.mdl
+[00:17:56] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/ren_5turbo.mdl
+[00:17:59] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/renault_alpine_zar.mdl
+[00:18:01] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/diggercars/ren_twingo/v1.mdl
+[00:18:02] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/renault_alpine.mdl
+[00:18:59] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/ren_meganers.mdl
+[00:19:04] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/props_vehicles/apc001.mdl
+[00:19:04] Tomlzzz was killed by gmod_sent_vehicle_fphysics_base
+[00:19:07] Valll<STEAM_0:0:512645622> spawned vehicle models/lonewolfie/ren_5turbo.mdl
+[00:19:11] Valll<STEAM_0:0:512645622> spawned vehicle models/metrohd/vw_passat_variant.mdl
+[00:19:44] Valll<STEAM_0:0:512645622> spawned vehicle models/tdmcars/gtaiv_airtug.mdl
+[00:19:48] Valll<STEAM_0:0:512645622> spawned vehicle models/tdmcars/gtaiv_airtug.mdl
+[00:20:08] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/redc_svj/redc_svj.mdl
+[00:20:28] Valll<STEAM_0:0:512645622> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[00:20:33] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/diggercars/ren_twingo/v1.mdl
+[00:20:50] Valll<STEAM_0:0:512645622> spawned vehicle models/props_c17/furniturecouch002a.mdl
+[00:22:04] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/w4nou/peugeot_5008_2021.mdl
+[00:22:08] Valll<STEAM_0:0:512645622> spawned vehicle models/redc_23gt3rs/redc_23gt3rs.mdl
+[00:22:40] Valll<STEAM_0:0:512645622> spawned vehicle models/redc_23gt3rs/redc_23gt3rs.mdl
+[00:23:23] Valll<STEAM_0:0:512645622> spawned vehicle models/crsk_autos/mercedes-benz/g500_2008.mdl
+[00:23:29] Valll<STEAM_0:0:512645622> spawned vehicle models/skyautomotive/audir8_17.mdl
+[00:24:36] Valll<STEAM_0:0:512645622> spawned vehicle models/tdmcars/vw_golfgti_14.mdl
+[00:24:55] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/tdmcars/vw_golfgti_14.mdl
+[00:25:05] Valll<STEAM_0:0:512645622> spawned vehicle models/blu/hatchback/pw_hatchback.mdl
+[00:25:45] Valll<STEAM_0:0:512645622> spawned vehicle models/blu/volga/volga.mdl
+[00:26:32] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/rytrak/rmeganers.mdl
+[00:27:26] Valll<STEAM_0:0:512645622> spawned vehicle models/perrynsvehicles/fiat_ducato/fiat_ducato.mdl
+[00:28:52] Valll<STEAM_0:0:512645622> spawned vehicle models/azok30/peugeot_307.mdl
+[00:31:50] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[00:32:10] New map: gm_construct
+[00:32:10] Client "Valll" connected.
+[00:32:17] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 7 seconds).
+[00:32:32] Client "Tomlzzz" connected.
+[00:32:45] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 13 seconds).
+[00:34:22] Tomlzzz: /addmoney 444444'
+[00:34:35] Tomlzzz: /addmoney 34234252
+[00:34:46] Tomlzzz: /setmoney 1
+[00:39:33] Tomlzzz: pipi
+[00:39:35] Tomlzzz: caca
+[00:39:38] Tomlzzz: zizi
+[00:39:53] Tomlzzz: <emote=caca>
+[00:40:06] Tomlzzz: <emote=caca>
+[00:40:10] Tomlzzz: <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca> <emote=caca>
+[00:40:19] Tomlzzz: <emote=caca>
+[00:40:47] Tomlzzz: zizi
+[00:41:04] Tomlzzz: <hsv=rand(0,255)>zizi
+[00:42:11] Valll: H
+[00:43:00] Valll: <translate=0,1> <translate=0,2>c<translate=0,3>a<translate=0,4>c<translate=0,5>a
+[00:45:24] Valll<STEAM_0:0:512645622> spawned vehicle models/azok30/tmax_530.mdl
+[00:45:45] Valll<STEAM_0:0:512645622> spawned vehicle models/azok30/renault_scenic_2.mdl
+[00:46:29] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/azok30/renault_scenic_2.mdl
+[00:47:11] Tomlzzz suicided!

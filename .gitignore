@@ -1,0 +1,31 @@
+# Ignorer tous les fichiers du serveur par défaut (pour ne pas envoyer le jeu de base)
+*
+
+# On autorise la lecture des dossiers
+!*/
+
+# On autorise le suivi des fichiers dans ces dossiers vitaux pour votre développement
+!garrysmod/addons/**
+!garrysmod/cfg/**
+!garrysmod/data/**
+!garrysmod/lua/**
+
+# On exclut volontairement les très gros fichiers dans les addons
+*.vpk
+*.bsp
+*.nav
+*.gma
+
+# On exclut volontairement les très gros fichiers dans les addons
+*.vpk
+*.bsp
+*.nav
+*.gma
+
+# Ignorer les logs, les bases de données SQL locales et les crash dumps
+*.log
+*.sqlite
+*.mdmp
+
+# Ne pas ignorer ce fichier .gitignore lui-même
+!.gitignore
