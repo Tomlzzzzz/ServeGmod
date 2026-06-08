@@ -91,24 +91,25 @@ local function apply()
     if tabTable then
         local oldInit = tabTable.Init
         tabTable.Init = function(self)
-            oldInit(self)
+            if oldInit then oldInit(self) end
             
             if IsValid(self.TextEntry) then
                 self.TextEntry.Paint = function(_, w, h)
-                    surface.SetDrawColor(0, 0, 0, 150)
-                    surface.DrawRect(0, 0, w, h)
+                    draw.RoundedBox(6, 0, 0, w, h, Color(0, 0, 0, 200))
+                    -- Liseré subtil bleu OM en bas de la zone de texte
+                    draw.RoundedBox(0, 0, h - 1, w, 1, Color(45, 170, 225, 100))
                 end
-                self.TextEntry:SetBackgroundColor(Color(0, 0, 0, 150))
-                self.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
+                if self.TextEntry.SetBackgroundColor then
+                    self.TextEntry:SetBackgroundColor(Color(0, 0, 0, 200))
+                    self.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
+                end
             end
 
             local function btn_paint(btn, w, h)
-                if btn:IsHovered() then
-                    surface.SetDrawColor(45, 170, 225, 80)
-                else
-                    surface.SetDrawColor(45, 170, 225, 20)
-                end
-                surface.DrawRect(0, 0, w, h)
+                local hover = btn:IsHovered()
+                draw.RoundedBox(6, 0, 0, w, h, hover and Color(45, 170, 225, 120) or Color(11, 23, 42, 200))
+                -- Liseré Or si survolé, sinon Bleu OM
+                draw.RoundedBox(0, 0, h - 1, w, 1, hover and Color(255, 198, 64, 200) or Color(45, 170, 225, 100))
             end
             
             if IsValid(self.BtnSwitch) then self.BtnSwitch.Paint = btn_paint end
