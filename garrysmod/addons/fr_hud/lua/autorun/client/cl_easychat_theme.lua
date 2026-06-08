@@ -22,6 +22,9 @@ local function apply()
     if not EasyChat then return false end
 
     -- police Poppins (deja bundlee pour le HUD)
+    RunConsoleCommand("easychat_font", "Poppins")
+    RunConsoleCommand("easychat_font_size", "17")
+
     EasyChat.FontName = "Poppins"
     EasyChat.FontSize = 17
     -- force re-creation du font et application
@@ -30,6 +33,9 @@ local function apply()
     })
     if EasyChat.GUI and IsValid(EasyChat.GUI.RichText) then
         EasyChat.GUI.RichText:SetFontInternal("EasyChatFont")
+    end
+    if EasyChat.GUI and IsValid(EasyChat.GUI.TextEntry) then
+        EasyChat.GUI.TextEntry:SetFont("EasyChatFont")
     end
 
     -- couleurs Marseille (raccord HUD)

@@ -529,3 +529,26 @@
 [22:17:27] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/kawasaki_ninja_h2r.mdl
 [22:17:28] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/yamaha_yz_250.mdl
 [22:17:35] Tomlzzz<STEAM_0:0:489915195> spawned vehicle models/realistic_bike/yamaha_yz_250.mdl
+[22:18:11] Server is shutting down/changing levels.
+
+
+
+[22:18:13] New map: gm_construct
+[22:18:21] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[22:18:23] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 12 seconds).
+[22:19:07] Server is shutting down/changing levels.
+
+
+
+[22:19:09] New map: gm_construct
+[22:19:17] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 9 seconds).
+[22:19:19] Client "Valll" spawned in server <STEAM_0:0:512645622> (took 11 seconds).
+[22:19:27] Tomlzzz: zozo
+
+
+
+[22:19:51] New map: gm_construct
+[22:21:34] Client "Tomlzzz" connected.
+[22:21:45] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 11 seconds).
+[22:22:48] Tomlzzz<STEAM_0:0:489915195> spawned model models/props_combine/weaponstripper.mdl
+[22:23:05] Tomlzzz<STEAM_0:0:489915195> spawned model models/combine_helicopter/helicopter_bomb01.mdl
