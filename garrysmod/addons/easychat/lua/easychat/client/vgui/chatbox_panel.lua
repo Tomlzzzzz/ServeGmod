@@ -8,8 +8,8 @@ local CHATBOX = {
 
 		self:ShowCloseButton(true)
 		self:SetScreenLock(true)
-		self:SetDraggable(true)
-		self:SetSizable(true)
+		self:SetDraggable(false)    -- [FR_HUD] chat verrouille
+		self:SetSizable(false)      -- [FR_HUD] chat non-resizable
 		self:SetDeleteOnClose(false)
 		self:SetTitle("")
 		self:SetMinimumSize(200, 200)

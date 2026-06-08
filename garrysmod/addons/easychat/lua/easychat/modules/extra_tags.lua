@@ -187,7 +187,7 @@ function flash_part:Ctor(str)
 end
 
 function flash_part:ComputeColor()
-	local coef = math_sin(CurTime() * 3)
+	local coef = math_sin(CurTime() * 9)  -- [FR_HUD] 3 -> 9 = 3x plus rapide
 	self.Color.r = (self.TargetColor.r / 2) + (coef * (self.TargetColor.r / 2))
 	self.Color.g = (self.TargetColor.g / 2) + (coef * (self.TargetColor.g / 2))
 	self.Color.b = (self.TargetColor.b / 2) + (coef * (self.TargetColor.b / 2))

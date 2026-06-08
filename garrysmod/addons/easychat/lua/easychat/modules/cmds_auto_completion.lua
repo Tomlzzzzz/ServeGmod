@@ -175,12 +175,60 @@ if CLIENT then
 
 	if gmod.GetGamemode().Name == "DarkRP" and _G.DarkRP and _G.DarkRP.chatCommands then
 		local commands = {}
+		-- [FR_HUD] whitelist : ne garde que les commandes de communication
+		local FR_WHITELIST = _G.FR_CHAT_WHITELIST or {
+			annonce=true, ano=true, ooc=true, me=true, w=true, y=true,
+			pm=true, g=true, broadcast=true, channel=true, radio=true, credits=true,
+		}
 		for chat_cmd, _ in pairs(_G.DarkRP.chatCommands) do
-			commands[chat_cmd] = {}
+			if FR_WHITELIST[chat_cmd] then commands[chat_cmd] = {} end
 		end
 
 		EasyChat.CmdSuggestions:AddSuggestionHandler("DarkRP", "/", commands, -1)
 	end
+
+	-- [FR_HUD] ULX commands hardcodees (cote client la table ulx.cmdsByCategory est vide).
+	-- Prefix "/" comme demande. Args = hints d'usage.
+	local FR_ULX = {
+		["jail"]      = { "<Joueur>", "<Secondes>" },
+		["unjail"]    = { "<Joueur>" },
+		["goto"]      = { "<Joueur>" },
+		["bring"]     = { "<Joueur>" },
+		["return"]    = { "<Joueur>" },
+		["slay"]      = { "<Joueur>" },
+		["slap"]      = { "<Joueur>", "<Damage>" },
+		["kick"]      = { "<Joueur>", "<Raison>" },
+		["ban"]       = { "<Joueur>", "<Minutes>", "<Raison>" },
+		["banid"]     = { "<SteamID>", "<Minutes>", "<Raison>" },
+		["unban"]     = { "<SteamID>" },
+		["mute"]      = { "<Joueur>" },
+		["unmute"]    = { "<Joueur>" },
+		["gag"]       = { "<Joueur>" },
+		["ungag"]     = { "<Joueur>" },
+		["freeze"]    = { "<Joueur>" },
+		["unfreeze"]  = { "<Joueur>" },
+		["ignite"]    = { "<Joueur>", "<Secondes>" },
+		["extinguish"] = { "<Joueur>" },
+		["noclip"]    = {},
+		["god"]       = {},
+		["ungod"]     = {},
+		["cloak"]     = { "<Joueur>" },
+		["uncloak"]   = { "<Joueur>" },
+		["hp"]        = { "<Joueur>", "<HP>" },
+		["armor"]     = { "<Joueur>", "<Armor>" },
+		["addgroup"]  = { "<Joueur>", "<Groupe>" },
+		["setgroup"]  = { "<Joueur>", "<Groupe>" },
+		["removegroup"] = { "<Joueur>" },
+		["asay"]      = { "<Message>" },
+		["psay"]      = { "<Joueur>", "<Message>" },
+		["csay"]      = { "<Message>" },
+		["tsay"]      = { "<Message>" },
+		["map"]       = { "<Map>" },
+		["menu"]      = {},
+		["xgui"]      = {},
+		["help"]      = {},
+	}
+	EasyChat.CmdSuggestions:AddSuggestionHandler("ULX", "/", FR_ULX, 9999)
 
 	local active_options_index = 0
 	local pos_x = 0

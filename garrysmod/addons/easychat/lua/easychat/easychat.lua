@@ -1723,7 +1723,7 @@ if CLIENT then
 					text_entry:SetCaretPos(new_caret_pos)
 				end
 			end
-		elseif (input.IsKeyDown(KEY_LALT) or input.IsKeyDown(KEY_RALT)) and ec_alt_shortcuts[key_code] then
+		elseif input.IsKeyDown(KEY_LALT) and not input.IsKeyDown(KEY_RALT) and ec_alt_shortcuts[key_code] then -- [FR_HUD] RAlt = AltGr clavier FR, exclu
 			local retrieved, new_caret_pos = ec_alt_shortcuts[key_code](text_entry, text_entry:GetText(), pos, first, last)
 			if retrieved then
 				text_entry:SetText(retrieved)
@@ -2661,7 +2661,7 @@ if CLIENT then
 
 		local invalid_chat_keys = {
 			[KEY_LCONTROL] = true, [KEY_LALT] = true,
-			[KEY_RCONTROL] = true, [KEY_RALT] = true,
+			[KEY_RCONTROL] = true, -- [FR_HUD] KEY_RALT retire = laisse passer AltGr pour @
 		}
 		local function is_chat_key_pressed(key_code)
 			if invalid_chat_keys[key_code] then return false end
