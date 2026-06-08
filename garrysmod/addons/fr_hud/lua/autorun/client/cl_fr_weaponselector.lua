@@ -33,6 +33,14 @@ local WepSelect = {
     Alpha = 0
 }
 
+local function HideWeaponMenuInstantly()
+    WepSelect.IsOpen = false
+    WepSelect.Alpha = 0
+    if IsValid(WepSelect.Container) then
+        WepSelect.Container:SetVisible(false)
+    end
+end
+
 local function GetWeaponsBySlot()
     local ply = LocalPlayer()
     if not IsValid(ply) then return {} end
@@ -77,10 +85,15 @@ end
 hook.Add("PlayerBindPress", "FRHUD_WeaponSelectionBind", function(ply, bind, pressed)
     if not pressed then return end
     
+    if string.find(bind, "gm_show") or string.find(bind, "+menu") or string.find(bind, "+showscores") then
+        HideWeaponMenuInstantly()
+    end
+
     local slots = GetWeaponsBySlot()
     if table.Count(slots) == 0 then return end
 
     local function OpenMenu()
+        if ply:InVehicle() then return end
         if not WepSelect.IsOpen then
             local active = ply:GetActiveWeapon()
             if IsValid(active) then
@@ -164,8 +177,8 @@ hook.Add("HUDPaint", "FRHUD_DrawWeaponSelection", function()
     local ply = LocalPlayer()
     if not IsValid(ply) then return end
 
-    if WepSelect.IsOpen and CurTime() > WepSelect.ShowTime then
-        WepSelect.IsOpen = false
+    if WepSelect.IsOpen and (CurTime() > WepSelect.ShowTime or ply:InVehicle()) then
+        HideWeaponMenuInstantly()
     end
 
     WepSelect.Alpha = Lerp(FrameTime() * 15, WepSelect.Alpha, WepSelect.IsOpen and 255 or 0)
@@ -309,14 +322,7 @@ hook.Add("HUDPaint", "FRHUD_DrawWeaponSelection", function()
 end)
 
 -- Fermer immédiatement le menu de sélection d'arme lors de l'ouverture d'un menu d'interaction
-local function HideWeaponMenuInstantly()
-    WepSelect.IsOpen = false
-    WepSelect.Alpha = 0
-    if IsValid(WepSelect.Container) then
-        WepSelect.Container:SetVisible(false)
-    end
-end
-
 hook.Add("OnContextMenuOpen", "FRHUD_WeaponSelect_HideOnC", HideWeaponMenuInstantly)
 hook.Add("OnSpawnMenuOpen", "FRHUD_WeaponSelect_HideOnQ", HideWeaponMenuInstantly)
 hook.Add("ShowSpare2", "FRHUD_WeaponSelect_HideOnF4", HideWeaponMenuInstantly)
+hook.Add("ScoreboardShow", "FRHUD_WeaponSelect_HideOnTab", HideWeaponMenuInstantly)

@@ -1,6 +1,5 @@
 "admin"	
 {
-	"can_target"	"!%superadmin"
 	"allow"	
 	{
 		"darkrp_admincommands"
@@ -92,6 +91,7 @@
 		"ulx welcomemessage"
 		"ulx whip"
 	}
+	"can_target"	"!%superadmin"
 	"inherit_from"	"operator"
 }
 "superadmin"	
@@ -102,6 +102,7 @@
 		"darkrp_setlicense"
 		"darkrp_setmoney"
 		"fpp_settings"
+		"photon2.serversettings"
 		"ulx addgroup"
 		"ulx adduser"
 		"ulx adduserid"
@@ -151,18 +152,11 @@
 }
 "operator"	
 {
-	"can_target"	"!%admin"
 	"allow"	
 	{
 		"ulx seeasay"
 	}
-	"inherit_from"	"user"
-}
-"noaccess"	
-{
-	"allow"	
-	{
-	}
+	"can_target"	"!%admin"
 	"inherit_from"	"user"
 }
 "user"	
@@ -179,4 +173,11 @@
 		"ulx votemap"
 		"ulx who"
 	}
+}
+"noaccess"	
+{
+	"allow"	
+	{
+	}
+	"inherit_from"	"user"
 }

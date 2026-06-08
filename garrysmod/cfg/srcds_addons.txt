@@ -333,4 +333,84 @@
 		"name"		"Azok30 - LAMBORGHINI URUS 2019 TOPCAR DESIGN [Nairor]"
 		"path"		"b:\servegmod\steam_cache\content\4000\1782384753\779601777697476643_legacy.bin"
 	}
+	"892226345"
+	{
+		"name"		"Rampe Prioritaire Mercura MLX4 (Police Nationale)"
+		"path"		"b:\servegmod\steam_cache\content\4000\892226345\88226869232743174_legacy.bin"
+	}
+	"875095111"
+	{
+		"name"		"CrSk Autos - Peugeot 308 GTi 2011"
+		"path"		"b:\servegmod\steam_cache\content\4000\875095111\92730090854775707_legacy.bin"
+	}
+	"2485840168"
+	{
+		"name"		"Citroën C4 - Gendarmerie"
+		"path"		"b:\servegmod\steam_cache\content\4000\2485840168"
+	}
+	"114000337"
+	{
+		"name"		"TDMCars - Citroen"
+		"path"		"b:\servegmod\steam_cache\content\4000\114000337\922553829339474423_legacy.bin"
+	}
+	"893235326"
+	{
+		"name"		"Rampe Prioritaire Gendarmerie"
+		"path"		"b:\servegmod\steam_cache\content\4000\893235326\88224930539096326_legacy.bin"
+	}
+	"3128242636"
+	{
+		"name"		"Photon 2: Emergency Systems Platform"
+		"path"		"b:\servegmod\steam_cache\content\4000\3128242636"
+	}
+	"2039701689"
+	{
+		"name"		"Azok30 - SUZUKI ADDRESS CIVIL & UBER EATS [Julian]"
+		"path"		"b:\servegmod\steam_cache\content\4000\2039701689"
+	}
+	"1771366739"
+	{
+		"name"		"Azok30 - RENAULT TWINGO 1 LIMOUSINE"
+		"path"		"b:\servegmod\steam_cache\content\4000\1771366739\781852661623959326_legacy.bin"
+	}
+	"2069328298"
+	{
+		"name"		"Renault Master - CRS"
+		"path"		"b:\servegmod\steam_cache\content\4000\2069328298"
+	}
+	"1843083995"
+	{
+		"name"		"Rytrak Cars - Renault Master Van"
+		"path"		"b:\servegmod\steam_cache\content\4000\1843083995\773977439688302489_legacy.bin"
+	}
+	"1704390057"
+	{
+		"name"		"Rytrak Cars - Shared Textures"
+		"path"		"b:\servegmod\steam_cache\content\4000\1704390057"
+	}
+	"654721136"
+	{
+		"name"		"Gyroled."
+		"path"		"b:\servegmod\steam_cache\content\4000\654721136\273966218644887779_legacy.bin"
+	}
+	"3322707383"
+	{
+		"name"		"gWeather"
+		"path"		"b:\servegmod\steam_cache\content\4000\3322707383"
+	}
+	"3618012419"
+	{
+		"name"		"[gWeather] Keep Weather (Unofficial)"
+		"path"		"b:\servegmod\steam_cache\content\4000\3618012419"
+	}
+	"2533054539"
+	{
+		"name"		"GWarheads - Realistic Bombs"
+		"path"		"b:\servegmod\steam_cache\content\4000\2533054539"
+	}
+	"3644858329"
+	{
+		"name"		"GStorms - Weather & Tornadoes"
+		"path"		"b:\servegmod\steam_cache\content\4000\3644858329"
+	}
 }
