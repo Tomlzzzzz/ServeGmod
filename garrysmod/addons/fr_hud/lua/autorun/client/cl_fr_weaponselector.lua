@@ -264,9 +264,9 @@ hook.Add("HUDPaint", "FRHUD_DrawWeaponSelection", function()
 
             -- Visual (3D Model or Icon)
             local wepClass = wep:GetClass()
-            local wepModel = wep:GetModel()
+            local wepModel = wep:GetModel() or wep:GetWorldModel()
             
-            if wepModel and wepModel ~= "" then
+            if wepModel and wepModel ~= "" and util.IsValidModel(wepModel) then
                 if not IsValid(WepSelect.ModelPanels[wepClass]) then
                     local pnl = vgui.Create("DModelPanel", WepSelect.Container)
                     pnl:SetSize(boxW - S(20), boxH - S(30))
@@ -290,6 +290,8 @@ hook.Add("HUDPaint", "FRHUD_DrawWeaponSelection", function()
                             self:SetLookAt(center)
                         end
                         pnl.DrawModel = function(self)
+                            if WepSelect.Alpha <= 0 then return end
+                            
                             render.SetBlend(WepSelect.Alpha / 255)
                             if IsValid(self.Entity) then
                                 self.Entity:DrawModel()

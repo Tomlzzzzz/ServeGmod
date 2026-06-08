@@ -1,515 +1,515 @@
 Start of SERVER log file [Photon 2.0.40]
 
-22:38:44        (INIT)  Photon 2 initialized in 0.092 seconds.
-22:38:46        (Library)  Loading [Sirens] library...
-22:38:46        (Library)  	Loading Lua files...
-22:38:46        (Library)  	Path: photon-v2/library/sirens/
-22:38:46        (Library)  	Result: 1 file(s) found.
-22:38:46        (Library)  		Including Lua file: photon-v2/library/sirens/sirens_default.lua
-22:38:46        (Library)  			Registering [Sirens] library entry [fedsig_touchmaster_delta]
-22:38:46        (Library)  			Registering [Sirens] library entry [fedsig_smartsiren]
-22:38:46        (Library)  			Registering [Sirens] library entry [fedsig_omega90]
-22:38:46        (Library)  			Registering [Sirens] library entry [code3_z3]
-22:38:46        (Library)  			Registering [Sirens] library entry [dr_iqelitepro]
-22:38:46        (Library)  			Registering [Sirens] library entry [sos_nergy400]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_gamma]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_epsilon]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_epsilon_alt]
-22:38:46        (Library)  			Registering [Sirens] library entry [fedsig_pathfinder_ssp]
-22:38:46        (Library)  			Registering [Sirens] library entry [fedsig_pathfinder_unitrol]
-22:38:46        (Library)  			Registering [Sirens] library entry [motorola_spectra]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_ws295mp]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_alpha]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_295hfsa6]
-22:38:46        (Library)  			Registering [Sirens] library entry [code3_mastercomb]
-22:38:46        (Library)  			Registering [Sirens] library entry [whelen_gamma_new]
-22:38:46        (Library)  	Loading data files...
-22:38:46        (Library)  	Path: photon_v2/library/sirens/*.json
-22:38:46        (Library)  	Result: 0 file(s) found.
-22:38:46        (Library)  	Library loading marked complete.
-22:38:46        (Library)  Loading [Components] library...
-22:38:46        (Library)  	Loading Lua files...
-22:38:46        (Library)  	Path: photon-v2/library/components/
-22:38:46        (Library)  	Result: 75 file(s) found.
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_mx7000.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_mx7000.lua]
-22:38:46        (Library)  Name [photon_c3_mx7000]
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_mx7000]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_rx2700.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_rx2700_47]
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_rx2700_52]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_rx2700.lua]
-22:38:46        (Library)  Name [photon_c3_rx2700]
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_rx2700_47]
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_rx2700_52]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_rx2700_58.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_rx2700_58.lua]
-22:38:46        (Library)  Name [photon_c3_rx2700_58]
-22:38:46        (Library)  			Registering [Components] library entry [photon_c3_rx2700_58]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_xt.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt3]
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt6]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_xt.lua]
-22:38:46        (Library)  Name [photon_c3_xt]
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt3]
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_code3_xt6]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_char15_pushbar.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_char15_pushbar.lua]
-22:38:46        (Library)  Name [photon_char15_pushbar]
-22:38:46        (Library)  			Registering [Components] library entry [photon_char15_pushbar]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_cn_signalmaster.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_cn_signalmaster.lua]
-22:38:46        (Library)  Name [photon_fedsig_cn_signalmaster]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_cn_signalmaster]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_ils.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_ils.lua]
-22:38:46        (Library)  Name [photon_fedsig_ils]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_ils]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_integrity_44.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_integrity_44.lua]
-22:38:46        (Library)  Name [photon_fedsig_integrity_44]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_integrity_44]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_integrity_51.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_integrity_51.lua]
-22:38:46        (Library)  Name [photon_fedsig_integrity_51]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_integrity_51]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_jetsolaris.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_jetsolaris.lua]
-22:38:46        (Library)  Name [photon_fedsig_jetsolaris]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_jetsolaris]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_legend.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_legend.lua]
-22:38:46        (Library)  Name [photon_fedsig_legend]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_legend]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_mb1.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_mb1.lua]
-22:38:46        (Library)  Name [photon_fedsig_mb1]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_mb1]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_mb1_controller.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_mb1_controller.lua]
-22:38:46        (Library)  Name [photon_fedsig_mb1_controller]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_mb1_controller]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_opticom795.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_opticom795.lua]
-22:38:46        (Library)  Name [photon_fedsig_opticom795]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_opticom795]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_scsb.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_scsb.lua]
-22:38:46        (Library)  Name [photon_fedsig_scsb]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_scsb]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_44.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_44.lua]
-22:38:46        (Library)  Name [photon_fedsig_valor_44]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_valor_44]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_51.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_51.lua]
-22:38:46        (Library)  Name [photon_fedsig_valor_51]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_valor_51]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_suv.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_suv.lua]
-22:38:46        (Library)  Name [photon_fedsig_valor_suv]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_valor_suv]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_visionslr.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_visionslr.lua]
-22:38:46        (Library)  Name [photon_fedsig_visionslr]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_visionslr]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_xstream_duo.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_xstream_duo.lua]
-22:38:46        (Library)  Name [photon_fedsig_xstream_duo]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_xstream_duo]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_xstream_single.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_xstream_single.lua]
-22:38:46        (Library)  Name [photon_fedsig_xstream_single]
-22:38:46        (Library)  			Registering [Components] library entry [photon_fedsig_xstream_single]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_golight_2000gt.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_golight_2000gt.lua]
-22:38:46        (Library)  Name [photon_golight_2000gt]
-22:38:46        (Library)  			Registering [Components] library entry [photon_golight_2000gt]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_hud_default.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_hud_default.lua]
-22:38:46        (Library)  Name [photon_hud_default]
-22:38:46        (Library)  			Registering [Components] library entry [photon_hud_default]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_pan_toughbookcf30.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_pan_toughbookcf30.lua]
-22:38:46        (Library)  Name [photon_pan_toughbookcf30]
-22:38:46        (Library)  			Registering [Components] library entry [photon_pan_toughbookcf30]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_par46_left.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_par46_left.lua]
-22:38:46        (Library)  Name [photon_par46_left]
-22:38:46        (Library)  			Registering [Components] library entry [photon_par46_left]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_par46_right.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_par46_right.lua]
-22:38:46        (Library)  Name [photon_par46_right]
-22:38:46        (Library)  			Registering [Components] library entry [photon_par46_right]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_setina_fpiu13.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_setina_fpiu13.lua]
-22:38:46        (Library)  Name [photon_setina_fpiu13]
-22:38:46        (Library)  			Registering [Components] library entry [photon_setina_fpiu13]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_setina_fpiu16.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_setina_fpiu16.lua]
-22:38:46        (Library)  Name [photon_setina_fpiu16]
-22:38:46        (Library)  			Registering [Components] library entry [photon_setina_fpiu16]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_siren_secondary.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_siren_secondary.lua]
-22:38:46        (Library)  Name [photon_siren_secondary]
-22:38:46        (Library)  			Registering [Components] library entry [photon_siren_secondary]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sm_liberty_ii_suv.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sm_liberty_ii_suv.lua]
-22:38:46        (Library)  Name [photon_sm_liberty_ii_suv]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sm_liberty_ii_suv]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_ford96t.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_ford96t.lua]
-22:38:46        (Library)  Name [photon_sos_ford96t]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_ford96t]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_intersector_surf.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_intersector_surf.lua]
-22:38:46        (Library)  Name [photon_sos_intersector_surf]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_intersector_surf]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf3.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf3.lua]
-22:38:46        (Library)  Name [photon_sos_mpf3]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf3]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_bracket_x2]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_x4]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4.lua]
-22:38:46        (Library)  Name [photon_sos_mpf4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_bracket_x2]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_x4]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4_lic_h.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4_lic_h.lua]
-22:38:46        (Library)  Name [photon_sos_mpf4_lic_h]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_lic_h]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4_lic_v.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4_lic_v.lua]
-22:38:46        (Library)  Name [photon_sos_mpf4_lic_v]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4_lic_v]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4x2.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4x2.lua]
-22:38:46        (Library)  Name [photon_sos_mpf4x2]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mpf4x2]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nergy.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nergy.lua]
-22:38:46        (Library)  Name [photon_sos_nergy]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_nergy]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_48.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_48.lua]
-22:38:46        (Library)  Name [photon_sos_nforce_48]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_nforce_48]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_54.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_54.lua]
-22:38:46        (Library)  Name [photon_sos_nforce_54]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_nforce_54]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_surface.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_surface.lua]
-22:38:46        (Library)  Name [photon_sos_nforce_surface]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_nforce_surface]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_observe.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_observe.lua]
-22:38:46        (Library)  Name [photon_sos_observe]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_observe]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_siren.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_siren.lua]
-22:38:46        (Library)  Name [photon_sos_siren]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_siren]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_traffic_controller.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_traffic_controller.lua]
-22:38:46        (Library)  Name [photon_sos_traffic_controller]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mptc_x8]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mptc_x6]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_mptc_x4]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_undercover.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_undercover.lua]
-22:38:46        (Library)  Name [photon_sos_undercover]
-22:38:46        (Library)  			Registering [Components] library entry [photon_sos_undercover]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2012impala.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2012impala.lua]
-22:38:46        (Library)  Name [photon_standard_2012impala]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_2012impala]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2014f550.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2014f550.lua]
-22:38:46        (Library)  Name [photon_standard_2014f550]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_2014f550]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2017demon.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2017demon.lua]
-22:38:46        (Library)  Name [photon_standard_2017demon]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_2017demon]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_chevcap13.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_chevcap13.lua]
-22:38:46        (Library)  Name [photon_standard_chevcap13]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_chevcap13]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_chevcap91.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_chevcap91.lua]
-22:38:46        (Library)  Name [photon_standard_chevcap91]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_chevcap91]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_fpis13.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_fpis13.lua]
-22:38:46        (Library)  Name [photon_standard_fpis13]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_fpis13]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmchar15.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmchar15.lua]
-22:38:46        (Library)  Name [photon_standard_sgmchar15]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_sgmchar15]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmcvpi96.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmcvpi96.lua]
-22:38:46        (Library)  Name [photon_standard_sgmcvpi96]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_sgmcvpi96]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmdodur21.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmdodur21.lua]
-22:38:46        (Library)  Name [photon_standard_sgmdodur21]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_sgmdodur21]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmfpiu13.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmfpiu13.lua]
-22:38:46        (Library)  Name [photon_standard_sgmfpiu13]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_sgmfpiu13]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmfpiu20.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmfpiu20.lua]
-22:38:46        (Library)  Name [photon_standard_sgmfpiu20]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_sgmfpiu20]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_smf15018.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_smf15018.lua]
-22:38:46        (Library)  Name [photon_standard_smf15018]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_smf15018]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_smfpiu16.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_smfpiu16.lua]
-22:38:46        (Library)  Name [photon_standard_smfpiu16]
-22:38:46        (Library)  			Registering [Components] library entry [photon_standard_smfpiu16]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_dominator.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_2]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_6]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_8]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_dominator.lua]
-22:38:46        (Library)  Name [photon_whe_dominator]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_2]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_6]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_dominator_8]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_edge.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_edge.lua]
-22:38:46        (Library)  Name [photon_whe_edge]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_edge]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_inner_edge.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_left]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_right]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_inner_edge.lua]
-22:38:46        (Library)  Name [photon_whe_inner_edge]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_left]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_right]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_inneredgexlp.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_inneredgexlp.lua]
-22:38:46        (Library)  Name [photon_whe_inneredgexlp]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_inneredgexlp]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_ion.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_surface]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_surface_bracket]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_spitfire]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_ion.lua]
-22:38:46        (Library)  Name [photon_whe_ion]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_surface]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_surface_bracket]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_spitfire]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_ion_split.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_split]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_split_surface]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_ion_split_surface_bracket]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_44.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_44.lua]
-22:38:46        (Library)  Name [photon_whe_legacy_44]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_legacy_44]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_48.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_48.lua]
-22:38:46        (Library)  Name [photon_whe_legacy_48]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_legacy_48]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_54.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_54.lua]
-22:38:46        (Library)  Name [photon_whe_legacy_54]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_legacy_54]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_liberty_48.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_liberty_48.lua]
-22:38:46        (Library)  Name [photon_whe_liberty_48]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_liberty_48]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_libertyii_48.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_libertyii_48.lua]
-22:38:46        (Library)  Name [photon_whe_libertyii_48]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_libertyii_48]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_par46_left.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_par46_left.lua]
-22:38:46        (Library)  Name [photon_whe_par46_left]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_par46_left]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_par46_right.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_par46_right.lua]
-22:38:46        (Library)  Name [photon_whe_par46_right]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_par46_right]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_tracer.lua
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer5]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer3]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer1]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer6]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer2]
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_tracer.lua]
-22:38:46        (Library)  Name [photon_whe_tracer]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer5]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer3]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer1]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer6]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer4]
-22:38:46        (Library)  			Registering [Components] library entry [photon_whe_tracer2]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/schmal_mpdc_sos_nforce_54.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/schmal_mpdc_sos_nforce_54.lua]
-22:38:46        (Library)  Name [schmal_mpdc_sos_nforce_54]
-22:38:46        (Library)  			Registering [Components] library entry [schmal_mpdc_sos_nforce_54]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/schmal_mpdc_test_nforce_54.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/schmal_mpdc_test_nforce_54.lua]
-22:38:46        (Library)  Name [schmal_mpdc_test_nforce_54]
-22:38:46        (Library)  			Registering [Components] library entry [schmal_mpdc_test_nforce_54]
-22:38:46        (Library)  		Including Lua file: photon-v2/library/components/siren_prototype.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/components/siren_prototype.lua]
-22:38:46        (Library)  Name [siren_prototype]
-22:38:46        (Library)  			Registering [Components] library entry [siren_prototype]
-22:38:46        (Library)  	Loading data files...
-22:38:46        (Library)  	Path: photon_v2/library/components/*.json
-22:38:46        (Library)  	Result: 0 file(s) found.
-22:38:46        (Library)  	Library loading marked complete.
-22:38:46        (Library)  Loading [Schemas] library...
-22:38:46        (Library)  	Loading Lua files...
-22:38:46        (Library)  	Path: photon-v2/library/schemas/
-22:38:46        (Library)  	Result: 1 file(s) found.
-22:38:46        (Library)  		Including Lua file: photon-v2/library/schemas/schemas_default.lua
-22:38:46        (Library)  			Registering [Schemas] library entry [default]
-22:38:46        (Library)  			Registering [Schemas] library entry [default_child]
-22:38:46        (Library)  	Loading data files...
-22:38:46        (Library)  	Path: photon_v2/library/schemas/*.json
-22:38:46        (Library)  	Result: 0 file(s) found.
-22:38:46        (Library)  	Library loading marked complete.
-22:38:46        (Library)  Loading [Vehicles] library...
-22:38:46        (Library)  	Loading Lua files...
-22:38:46        (Library)  	Path: photon-v2/library/vehicles/
-22:38:46        (Library)  	Result: 23 file(s) found.
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_demon.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_demon.lua]
-22:38:46        (Library)  Name [default_afro_demon]
-22:38:46        (Library)  			Registering [Vehicles] library entry [default_afro_demon]
-22:38:46 [WARN] (Library)  Failed to register [default_afro_demon]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_f550.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_f550.lua]
-22:38:46        (Library)  Name [default_afro_f550]
-22:38:46        (Library)  			Registering [Vehicles] library entry [default_afro_f550]
-22:38:46 [WARN] (Library)  Failed to register [default_afro_f550]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_impala.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_impala.lua]
-22:38:46        (Library)  Name [default_afro_impala]
-22:38:46        (Library)  			Registering [Vehicles] library entry [default_afro_impala]
-22:38:46 [WARN] (Library)  Failed to register [default_afro_impala]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/default_sgm_forexp13.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_sgm_forexp13.lua]
-22:38:46        (Library)  Name [default_sgm_forexp13]
-22:38:46        (Library)  			Registering [Vehicles] library entry [default_sgm_forexp13]
-22:38:46 [WARN] (Library)  Failed to register [default_sgm_forexp13]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_char15_lar_co_so.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_char15_lar_co_so.lua]
-22:38:46        (Library)  Name [photon_sgm_char15_lar_co_so]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_char15_lar_co_so]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_char15_lar_co_so]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_cso.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_cso.lua]
-22:38:46        (Library)  Name [photon_sgm_chevcap13_ftc_co_cso]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_ftc_co_cso]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_ftc_co_cso]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_chevcap13_ftc_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_ftc_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_ftc_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_lov_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_lov_co_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_chevcap13_lov_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_lov_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_lov_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_wa_wsp.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_wa_wsp.lua]
-22:38:46        (Library)  Name [photon_sgm_chevcap13_wa_wsp]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_wa_wsp]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_wa_wsp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap91_arv_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap91_arv_co_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_chevcap91_arv_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap91_arv_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_chevcap91_arv_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_cvpi96_ftc_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_cvpi96_ftc_co_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_cvpi96_ftc_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_cvpi96_ftc_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_cvpi96_ftc_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_durang21_co_csp.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_durang21_co_csp.lua]
-22:38:46        (Library)  Name [photon_sgm_durang21_co_csp]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_durang21_co_csp]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_durang21_co_csp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpis13_usss.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpis13_usss.lua]
-22:38:46        (Library)  Name [photon_sgm_fpis13_usss]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpis13_usss]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpis13_usss]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpis13_va_vsp.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpis13_va_vsp.lua]
-22:38:46        (Library)  Name [photon_sgm_fpis13_va_vsp]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpis13_va_vsp]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpis13_va_vsp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu13_sea_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu13_sea_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu13_sea_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu13_sea_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu13_sea_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_pd.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu20_bou_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_bou_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_bou_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_so.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_so.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu20_bou_co_so]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_bou_co_so]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_bou_co_so]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_mpdc.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_mpdc.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu20_mpdc]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_mpdc]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_mpdc]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_unmarked.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_unmarked.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu20_unmarked]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_unmarked]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_unmarked]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_uscp.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_uscp.lua]
-22:38:46        (Library)  Name [photon_sgm_fpiu20_uscp]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_uscp]
-22:38:46 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_uscp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_f150r18_az_dps.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_f150r18_az_dps.lua]
-22:38:46        (Library)  Name [photon_sm_f150r18_az_dps]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sm_f150r18_az_dps]
-22:38:46 [WARN] (Library)  Failed to register [photon_sm_f150r18_az_dps]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_f150r18_lgmt_co_pd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_f150r18_lgmt_co_pd.lua]
-22:38:46        (Library)  Name [photon_sm_f150r18_lgmt_co_pd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sm_f150r18_lgmt_co_pd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sm_f150r18_lgmt_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_fpiu16_lvmpd.lua
-22:38:46        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_fpiu16_lvmpd.lua]
-22:38:46        (Library)  Name [photon_sm_fpiu16_lvmpd]
-22:38:46        (Library)  			Registering [Vehicles] library entry [photon_sm_fpiu16_lvmpd]
-22:38:46 [WARN] (Library)  Failed to register [photon_sm_fpiu16_lvmpd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
-22:38:46        (Library)  	Loading data files...
-22:38:46        (Library)  	Path: photon_v2/library/vehicles/*.json
-22:38:46        (Library)  	Result: 0 file(s) found.
-22:38:46        (Library)  	Library loading marked complete.
-22:38:46        (Library)  Photon 2 libraries loaded in 0.15 seconds.
+22:52:58        (INIT)  Photon 2 initialized in 0.057 seconds.
+22:52:58        (Library)  Loading [Sirens] library...
+22:52:58        (Library)  	Loading Lua files...
+22:52:58        (Library)  	Path: photon-v2/library/sirens/
+22:52:58        (Library)  	Result: 1 file(s) found.
+22:52:58        (Library)  		Including Lua file: photon-v2/library/sirens/sirens_default.lua
+22:52:58        (Library)  			Registering [Sirens] library entry [fedsig_touchmaster_delta]
+22:52:58        (Library)  			Registering [Sirens] library entry [fedsig_smartsiren]
+22:52:58        (Library)  			Registering [Sirens] library entry [fedsig_omega90]
+22:52:58        (Library)  			Registering [Sirens] library entry [code3_z3]
+22:52:58        (Library)  			Registering [Sirens] library entry [dr_iqelitepro]
+22:52:58        (Library)  			Registering [Sirens] library entry [sos_nergy400]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_gamma]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_epsilon]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_epsilon_alt]
+22:52:58        (Library)  			Registering [Sirens] library entry [fedsig_pathfinder_ssp]
+22:52:58        (Library)  			Registering [Sirens] library entry [fedsig_pathfinder_unitrol]
+22:52:58        (Library)  			Registering [Sirens] library entry [motorola_spectra]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_ws295mp]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_alpha]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_295hfsa6]
+22:52:58        (Library)  			Registering [Sirens] library entry [code3_mastercomb]
+22:52:58        (Library)  			Registering [Sirens] library entry [whelen_gamma_new]
+22:52:58        (Library)  	Loading data files...
+22:52:58        (Library)  	Path: photon_v2/library/sirens/*.json
+22:52:58        (Library)  	Result: 0 file(s) found.
+22:52:58        (Library)  	Library loading marked complete.
+22:52:58        (Library)  Loading [Components] library...
+22:52:58        (Library)  	Loading Lua files...
+22:52:58        (Library)  	Path: photon-v2/library/components/
+22:52:58        (Library)  	Result: 75 file(s) found.
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_mx7000.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_mx7000.lua]
+22:52:58        (Library)  Name [photon_c3_mx7000]
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_mx7000]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_rx2700.lua
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_rx2700_47]
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_rx2700_52]
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_rx2700.lua]
+22:52:58        (Library)  Name [photon_c3_rx2700]
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_rx2700_47]
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_rx2700_52]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_rx2700_58.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_rx2700_58.lua]
+22:52:58        (Library)  Name [photon_c3_rx2700_58]
+22:52:58        (Library)  			Registering [Components] library entry [photon_c3_rx2700_58]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_c3_xt.lua
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt3]
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt6]
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_c3_xt.lua]
+22:52:58        (Library)  Name [photon_c3_xt]
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt3]
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_code3_xt6]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_char15_pushbar.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_char15_pushbar.lua]
+22:52:58        (Library)  Name [photon_char15_pushbar]
+22:52:58        (Library)  			Registering [Components] library entry [photon_char15_pushbar]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_cn_signalmaster.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_cn_signalmaster.lua]
+22:52:58        (Library)  Name [photon_fedsig_cn_signalmaster]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_cn_signalmaster]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_ils.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_ils.lua]
+22:52:58        (Library)  Name [photon_fedsig_ils]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_ils]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_integrity_44.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_integrity_44.lua]
+22:52:58        (Library)  Name [photon_fedsig_integrity_44]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_integrity_44]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_integrity_51.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_integrity_51.lua]
+22:52:58        (Library)  Name [photon_fedsig_integrity_51]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_integrity_51]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_jetsolaris.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_jetsolaris.lua]
+22:52:58        (Library)  Name [photon_fedsig_jetsolaris]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_jetsolaris]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_legend.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_legend.lua]
+22:52:58        (Library)  Name [photon_fedsig_legend]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_legend]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_mb1.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_mb1.lua]
+22:52:58        (Library)  Name [photon_fedsig_mb1]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_mb1]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_mb1_controller.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_mb1_controller.lua]
+22:52:58        (Library)  Name [photon_fedsig_mb1_controller]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_mb1_controller]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_opticom795.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_opticom795.lua]
+22:52:58        (Library)  Name [photon_fedsig_opticom795]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_opticom795]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_scsb.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_scsb.lua]
+22:52:58        (Library)  Name [photon_fedsig_scsb]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_scsb]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_44.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_44.lua]
+22:52:58        (Library)  Name [photon_fedsig_valor_44]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_valor_44]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_51.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_51.lua]
+22:52:58        (Library)  Name [photon_fedsig_valor_51]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_valor_51]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_valor_suv.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_valor_suv.lua]
+22:52:58        (Library)  Name [photon_fedsig_valor_suv]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_valor_suv]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_visionslr.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_visionslr.lua]
+22:52:58        (Library)  Name [photon_fedsig_visionslr]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_visionslr]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_xstream_duo.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_xstream_duo.lua]
+22:52:58        (Library)  Name [photon_fedsig_xstream_duo]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_xstream_duo]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_fedsig_xstream_single.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_fedsig_xstream_single.lua]
+22:52:58        (Library)  Name [photon_fedsig_xstream_single]
+22:52:58        (Library)  			Registering [Components] library entry [photon_fedsig_xstream_single]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_golight_2000gt.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_golight_2000gt.lua]
+22:52:58        (Library)  Name [photon_golight_2000gt]
+22:52:58        (Library)  			Registering [Components] library entry [photon_golight_2000gt]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_hud_default.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_hud_default.lua]
+22:52:58        (Library)  Name [photon_hud_default]
+22:52:58        (Library)  			Registering [Components] library entry [photon_hud_default]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_pan_toughbookcf30.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_pan_toughbookcf30.lua]
+22:52:58        (Library)  Name [photon_pan_toughbookcf30]
+22:52:58        (Library)  			Registering [Components] library entry [photon_pan_toughbookcf30]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_par46_left.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_par46_left.lua]
+22:52:58        (Library)  Name [photon_par46_left]
+22:52:58        (Library)  			Registering [Components] library entry [photon_par46_left]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_par46_right.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_par46_right.lua]
+22:52:58        (Library)  Name [photon_par46_right]
+22:52:58        (Library)  			Registering [Components] library entry [photon_par46_right]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_setina_fpiu13.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_setina_fpiu13.lua]
+22:52:58        (Library)  Name [photon_setina_fpiu13]
+22:52:58        (Library)  			Registering [Components] library entry [photon_setina_fpiu13]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_setina_fpiu16.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_setina_fpiu16.lua]
+22:52:58        (Library)  Name [photon_setina_fpiu16]
+22:52:58        (Library)  			Registering [Components] library entry [photon_setina_fpiu16]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_siren_secondary.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_siren_secondary.lua]
+22:52:58        (Library)  Name [photon_siren_secondary]
+22:52:58        (Library)  			Registering [Components] library entry [photon_siren_secondary]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sm_liberty_ii_suv.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sm_liberty_ii_suv.lua]
+22:52:58        (Library)  Name [photon_sm_liberty_ii_suv]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sm_liberty_ii_suv]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_ford96t.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_ford96t.lua]
+22:52:58        (Library)  Name [photon_sos_ford96t]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_ford96t]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_intersector_surf.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_intersector_surf.lua]
+22:52:58        (Library)  Name [photon_sos_intersector_surf]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_intersector_surf]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf3.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf3.lua]
+22:52:58        (Library)  Name [photon_sos_mpf3]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf3]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4.lua
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_bracket_x2]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_x4]
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4.lua]
+22:52:58        (Library)  Name [photon_sos_mpf4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_bracket_x2]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_x4]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4_lic_h.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4_lic_h.lua]
+22:52:58        (Library)  Name [photon_sos_mpf4_lic_h]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_lic_h]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4_lic_v.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4_lic_v.lua]
+22:52:58        (Library)  Name [photon_sos_mpf4_lic_v]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4_lic_v]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_mpf4x2.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_mpf4x2.lua]
+22:52:58        (Library)  Name [photon_sos_mpf4x2]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mpf4x2]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nergy.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nergy.lua]
+22:52:58        (Library)  Name [photon_sos_nergy]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_nergy]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_48.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_48.lua]
+22:52:58        (Library)  Name [photon_sos_nforce_48]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_nforce_48]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_54.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_54.lua]
+22:52:58        (Library)  Name [photon_sos_nforce_54]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_nforce_54]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_nforce_surface.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_nforce_surface.lua]
+22:52:58        (Library)  Name [photon_sos_nforce_surface]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_nforce_surface]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_observe.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_observe.lua]
+22:52:58        (Library)  Name [photon_sos_observe]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_observe]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_siren.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_siren.lua]
+22:52:58        (Library)  Name [photon_sos_siren]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_siren]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_traffic_controller.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_traffic_controller.lua]
+22:52:58        (Library)  Name [photon_sos_traffic_controller]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mptc_x8]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mptc_x6]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_mptc_x4]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_sos_undercover.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_sos_undercover.lua]
+22:52:58        (Library)  Name [photon_sos_undercover]
+22:52:58        (Library)  			Registering [Components] library entry [photon_sos_undercover]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2012impala.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2012impala.lua]
+22:52:58        (Library)  Name [photon_standard_2012impala]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_2012impala]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2014f550.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2014f550.lua]
+22:52:58        (Library)  Name [photon_standard_2014f550]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_2014f550]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_2017demon.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_2017demon.lua]
+22:52:58        (Library)  Name [photon_standard_2017demon]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_2017demon]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_chevcap13.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_chevcap13.lua]
+22:52:58        (Library)  Name [photon_standard_chevcap13]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_chevcap13]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_chevcap91.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_chevcap91.lua]
+22:52:58        (Library)  Name [photon_standard_chevcap91]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_chevcap91]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_fpis13.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_fpis13.lua]
+22:52:58        (Library)  Name [photon_standard_fpis13]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_fpis13]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmchar15.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmchar15.lua]
+22:52:58        (Library)  Name [photon_standard_sgmchar15]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_sgmchar15]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmcvpi96.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmcvpi96.lua]
+22:52:58        (Library)  Name [photon_standard_sgmcvpi96]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_sgmcvpi96]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmdodur21.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmdodur21.lua]
+22:52:58        (Library)  Name [photon_standard_sgmdodur21]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_sgmdodur21]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmfpiu13.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmfpiu13.lua]
+22:52:58        (Library)  Name [photon_standard_sgmfpiu13]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_sgmfpiu13]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_sgmfpiu20.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_sgmfpiu20.lua]
+22:52:58        (Library)  Name [photon_standard_sgmfpiu20]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_sgmfpiu20]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_smf15018.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_smf15018.lua]
+22:52:58        (Library)  Name [photon_standard_smf15018]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_smf15018]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_standard_smfpiu16.lua
+22:52:58        (Library)  Loading dedicated file [photon-v2/library/components/photon_standard_smfpiu16.lua]
+22:52:58        (Library)  Name [photon_standard_smfpiu16]
+22:52:58        (Library)  			Registering [Components] library entry [photon_standard_smfpiu16]
+22:52:58        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_dominator.lua
+22:52:58        (Library)  			Registering [Components] library entry [photon_whe_dominator_2]
+22:52:58        (Library)  			Registering [Components] library entry [photon_whe_dominator_4]
+22:52:58        (Library)  			Registering [Components] library entry [photon_whe_dominator_6]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_dominator_8]
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_dominator.lua]
+22:52:59        (Library)  Name [photon_whe_dominator]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_dominator_2]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_dominator_4]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_dominator_6]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_dominator_8]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_edge.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_edge.lua]
+22:52:59        (Library)  Name [photon_whe_edge]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_edge]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_inner_edge.lua
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_left]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_right]
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_inner_edge.lua]
+22:52:59        (Library)  Name [photon_whe_inner_edge]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_left]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_inner_edge_right]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_inneredgexlp.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_inneredgexlp.lua]
+22:52:59        (Library)  Name [photon_whe_inneredgexlp]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_inneredgexlp]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_ion.lua
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_surface]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_surface_bracket]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_spitfire]
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_ion.lua]
+22:52:59        (Library)  Name [photon_whe_ion]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_surface]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_surface_bracket]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_spitfire]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_ion_split.lua
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_split]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_split_surface]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_ion_split_surface_bracket]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_44.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_44.lua]
+22:52:59        (Library)  Name [photon_whe_legacy_44]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_legacy_44]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_48.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_48.lua]
+22:52:59        (Library)  Name [photon_whe_legacy_48]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_legacy_48]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_legacy_54.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_legacy_54.lua]
+22:52:59        (Library)  Name [photon_whe_legacy_54]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_legacy_54]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_liberty_48.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_liberty_48.lua]
+22:52:59        (Library)  Name [photon_whe_liberty_48]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_liberty_48]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_libertyii_48.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_libertyii_48.lua]
+22:52:59        (Library)  Name [photon_whe_libertyii_48]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_libertyii_48]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_par46_left.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_par46_left.lua]
+22:52:59        (Library)  Name [photon_whe_par46_left]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_par46_left]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_par46_right.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_par46_right.lua]
+22:52:59        (Library)  Name [photon_whe_par46_right]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_par46_right]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/photon_whe_tracer.lua
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer5]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer3]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer1]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer6]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer4]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer2]
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/photon_whe_tracer.lua]
+22:52:59        (Library)  Name [photon_whe_tracer]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer5]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer3]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer1]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer6]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer4]
+22:52:59        (Library)  			Registering [Components] library entry [photon_whe_tracer2]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/schmal_mpdc_sos_nforce_54.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/schmal_mpdc_sos_nforce_54.lua]
+22:52:59        (Library)  Name [schmal_mpdc_sos_nforce_54]
+22:52:59        (Library)  			Registering [Components] library entry [schmal_mpdc_sos_nforce_54]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/schmal_mpdc_test_nforce_54.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/schmal_mpdc_test_nforce_54.lua]
+22:52:59        (Library)  Name [schmal_mpdc_test_nforce_54]
+22:52:59        (Library)  			Registering [Components] library entry [schmal_mpdc_test_nforce_54]
+22:52:59        (Library)  		Including Lua file: photon-v2/library/components/siren_prototype.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/components/siren_prototype.lua]
+22:52:59        (Library)  Name [siren_prototype]
+22:52:59        (Library)  			Registering [Components] library entry [siren_prototype]
+22:52:59        (Library)  	Loading data files...
+22:52:59        (Library)  	Path: photon_v2/library/components/*.json
+22:52:59        (Library)  	Result: 0 file(s) found.
+22:52:59        (Library)  	Library loading marked complete.
+22:52:59        (Library)  Loading [Schemas] library...
+22:52:59        (Library)  	Loading Lua files...
+22:52:59        (Library)  	Path: photon-v2/library/schemas/
+22:52:59        (Library)  	Result: 1 file(s) found.
+22:52:59        (Library)  		Including Lua file: photon-v2/library/schemas/schemas_default.lua
+22:52:59        (Library)  			Registering [Schemas] library entry [default]
+22:52:59        (Library)  			Registering [Schemas] library entry [default_child]
+22:52:59        (Library)  	Loading data files...
+22:52:59        (Library)  	Path: photon_v2/library/schemas/*.json
+22:52:59        (Library)  	Result: 0 file(s) found.
+22:52:59        (Library)  	Library loading marked complete.
+22:52:59        (Library)  Loading [Vehicles] library...
+22:52:59        (Library)  	Loading Lua files...
+22:52:59        (Library)  	Path: photon-v2/library/vehicles/
+22:52:59        (Library)  	Result: 23 file(s) found.
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_demon.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_demon.lua]
+22:52:59        (Library)  Name [default_afro_demon]
+22:52:59        (Library)  			Registering [Vehicles] library entry [default_afro_demon]
+22:52:59 [WARN] (Library)  Failed to register [default_afro_demon]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_f550.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_f550.lua]
+22:52:59        (Library)  Name [default_afro_f550]
+22:52:59        (Library)  			Registering [Vehicles] library entry [default_afro_f550]
+22:52:59 [WARN] (Library)  Failed to register [default_afro_f550]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/default_afro_impala.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_afro_impala.lua]
+22:52:59        (Library)  Name [default_afro_impala]
+22:52:59        (Library)  			Registering [Vehicles] library entry [default_afro_impala]
+22:52:59 [WARN] (Library)  Failed to register [default_afro_impala]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/default_sgm_forexp13.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/default_sgm_forexp13.lua]
+22:52:59        (Library)  Name [default_sgm_forexp13]
+22:52:59        (Library)  			Registering [Vehicles] library entry [default_sgm_forexp13]
+22:52:59 [WARN] (Library)  Failed to register [default_sgm_forexp13]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_char15_lar_co_so.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_char15_lar_co_so.lua]
+22:52:59        (Library)  Name [photon_sgm_char15_lar_co_so]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_char15_lar_co_so]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_char15_lar_co_so]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_cso.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_cso.lua]
+22:52:59        (Library)  Name [photon_sgm_chevcap13_ftc_co_cso]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_ftc_co_cso]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_ftc_co_cso]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_ftc_co_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_chevcap13_ftc_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_ftc_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_ftc_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_lov_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_lov_co_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_chevcap13_lov_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_lov_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_lov_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap13_wa_wsp.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap13_wa_wsp.lua]
+22:52:59        (Library)  Name [photon_sgm_chevcap13_wa_wsp]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap13_wa_wsp]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_chevcap13_wa_wsp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_chevcap91_arv_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_chevcap91_arv_co_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_chevcap91_arv_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_chevcap91_arv_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_chevcap91_arv_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_cvpi96_ftc_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_cvpi96_ftc_co_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_cvpi96_ftc_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_cvpi96_ftc_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_cvpi96_ftc_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_durang21_co_csp.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_durang21_co_csp.lua]
+22:52:59        (Library)  Name [photon_sgm_durang21_co_csp]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_durang21_co_csp]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_durang21_co_csp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpis13_usss.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpis13_usss.lua]
+22:52:59        (Library)  Name [photon_sgm_fpis13_usss]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpis13_usss]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpis13_usss]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpis13_va_vsp.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpis13_va_vsp.lua]
+22:52:59        (Library)  Name [photon_sgm_fpis13_va_vsp]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpis13_va_vsp]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpis13_va_vsp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu13_sea_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu13_sea_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu13_sea_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu13_sea_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu13_sea_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_pd.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu20_bou_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_bou_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_bou_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_so.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_bou_co_so.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu20_bou_co_so]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_bou_co_so]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_bou_co_so]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_mpdc.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_mpdc.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu20_mpdc]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_mpdc]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_mpdc]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_unmarked.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_unmarked.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu20_unmarked]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_unmarked]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_unmarked]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sgm_fpiu20_uscp.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sgm_fpiu20_uscp.lua]
+22:52:59        (Library)  Name [photon_sgm_fpiu20_uscp]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sgm_fpiu20_uscp]
+22:52:59 [WARN] (Library)  Failed to register [photon_sgm_fpiu20_uscp]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_f150r18_az_dps.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_f150r18_az_dps.lua]
+22:52:59        (Library)  Name [photon_sm_f150r18_az_dps]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sm_f150r18_az_dps]
+22:52:59 [WARN] (Library)  Failed to register [photon_sm_f150r18_az_dps]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_f150r18_lgmt_co_pd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_f150r18_lgmt_co_pd.lua]
+22:52:59        (Library)  Name [photon_sm_f150r18_lgmt_co_pd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sm_f150r18_lgmt_co_pd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sm_f150r18_lgmt_co_pd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  		Including Lua file: photon-v2/library/vehicles/photon_sm_fpiu16_lvmpd.lua
+22:52:59        (Library)  Loading dedicated file [photon-v2/library/vehicles/photon_sm_fpiu16_lvmpd.lua]
+22:52:59        (Library)  Name [photon_sm_fpiu16_lvmpd]
+22:52:59        (Library)  			Registering [Vehicles] library entry [photon_sm_fpiu16_lvmpd]
+22:52:59 [WARN] (Library)  Failed to register [photon_sm_fpiu16_lvmpd]: lua/photon-v2/meta/vehicle.lua:279: attempt to index a nil value
+22:52:59        (Library)  	Loading data files...
+22:52:59        (Library)  	Path: photon_v2/library/vehicles/*.json
+22:52:59        (Library)  	Result: 0 file(s) found.
+22:52:59        (Library)  	Library loading marked complete.
+22:52:59        (Library)  Photon 2 libraries loaded in 0.15 seconds.
