@@ -230,8 +230,39 @@ if CLIENT then
 	}
 	EasyChat.CmdSuggestions:AddSuggestionHandler("ULX", "/", FR_ULX, 9999)
 
+	-- Nettoyage forcé des hooks d'autocomplétion des autres versions d'EasyChat (ex: Workshop)
+	for k, v in pairs(hook.GetTable().HUDPaint or {}) do
+		if isstring(k) and (string.find(k:lower(), "easychat") or string.find(k:lower(), "autocomplete")) and k ~= hook_name then
+			hook.Remove("HUDPaint", k)
+		end
+	end
+	for k, v in pairs(hook.GetTable().ChatTextChanged or {}) do
+		if isstring(k) and (string.find(k:lower(), "easychat") or string.find(k:lower(), "autocomplete")) and k ~= hook_name then
+			hook.Remove("ChatTextChanged", k)
+		end
+	end
+
 	local active_options_index = 0
 	local pos_x = 0
+
+	local function DrawMarseilleBox(x, y, text, is_cmd, font)
+		surface.SetFont(font)
+		local tw, th = surface.GetTextSize(text)
+		local boxW, boxH = tw + 16, th + 8
+
+		-- Outline
+		local borderCol = is_cmd and Color(255, 198, 64, 220) or Color(45, 170, 225, 200)
+		draw.RoundedBox(4, x, y, boxW, boxH, borderCol)
+		-- Inside
+		draw.RoundedBox(4, x + 1, y + 1, boxW - 2, boxH - 2, Color(11, 23, 42, 240))
+
+		-- Text
+		local textCol = is_cmd and Color(255, 198, 64, 255) or color_white
+		draw.SimpleText(text, font, x + 8, y + 4, textCol)
+
+		return boxW, boxH
+	end
+
 	hook.Add("ChatTextChanged", hook_name, function(text)
 		if not EC_CMDS_SUGGESTIONS:GetBool() then return end
 
@@ -327,19 +358,21 @@ if CLIENT then
 			local max_w = 0
 			for option, option_args in SortedPairs(all_options) do
 				local pos_y = chat_y + (j * option_h)
-				local option_w = draw.WordBox(4, pos_x, pos_y, option, option_font, black_color, color_white)
+				local option_w = DrawMarseilleBox(pos_x, pos_y, option, true, option_font)
 				if option_w and option_w > max_w then max_w = option_w end
 
+				local cur_x = pos_x + (option_w or 100) + 5
 				for arg_index, arg in ipairs(option_args) do
-					local arg_w = draw.WordBox(4, pos_x + (arg_index * 130), pos_y, arg, option_font, black_color, color_white)
-					if arg_w and (arg_index * 130) + arg_w > max_w then max_w = (arg_index * 130) + arg_w end
+					local arg_w = DrawMarseilleBox(cur_x, pos_y, arg, false, option_font)
+					cur_x = cur_x + (arg_w or 80) + 5
+					if (cur_x - pos_x) > max_w then max_w = (cur_x - pos_x) end
 				end
 
 				j = j + 1
 			end
 
 			if above_screen_height then
-				draw.WordBox(4, pos_x, chat_y + (i * option_h), "...", option_font, black_color, color_white)
+				DrawMarseilleBox(pos_x, chat_y + (i * option_h), "...", false, option_font)
 			end
 
 			if should_left_side then

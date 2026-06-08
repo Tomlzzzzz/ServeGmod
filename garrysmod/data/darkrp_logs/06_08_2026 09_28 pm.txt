@@ -1,0 +1,39 @@
+Mon Jun  8 21:28:08 2026	Tomlzzz (STEAM_0:0:489915195) has joined the game
+Mon Jun  8 21:28:08 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:28:11 2026	Valll (STEAM_0:0:512645622) has joined the game
+Mon Jun  8 21:28:11 2026	Valll (STEAM_0:0:512645622) spawned
+Mon Jun  8 21:28:29 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gw_shell_he
+Mon Jun  8 21:28:43 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gw_shell_mustard
+Mon Jun  8 21:29:03 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gw_blockbuster
+Mon Jun  8 21:29:05 2026	Valll (STEAM_0:0:512645622) spawned SENT gw_t7_space
+Mon Jun  8 21:29:15 2026	Valll was killed by Tomlzzz with a gw_blockbuster
+Mon Jun  8 21:29:15 2026	Tomlzzz was killed by Themself with a suicide trick
+Mon Jun  8 21:29:17 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:29:18 2026	Valll (STEAM_0:0:512645622) spawned
+Mon Jun  8 21:29:22 2026	Valll (STEAM_0:0:512645622) spawned SENT gw_t7_pyroclastic_flow
+Mon Jun  8 21:29:38 2026	Tomlzzz was killed by Entity [0][worldspawn] with a unknown
+Mon Jun  8 21:29:38 2026	Valll was killed by Entity [0][worldspawn] with a unknown
+Mon Jun  8 21:29:40 2026	Valll (STEAM_0:0:512645622) spawned
+Mon Jun  8 21:29:42 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:29:46 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gstorms_weather_spout_dynamic
+Mon Jun  8 21:29:52 2026	Valll was killed by Entity [0][worldspawn] with a unknown
+Mon Jun  8 21:29:53 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gstorms_weather_thunderstorm_dynamic
+Mon Jun  8 21:29:53 2026	Valll (STEAM_0:0:512645622) spawned
+Mon Jun  8 21:30:00 2026	Valll (STEAM_0:0:512645622): 
+Mon Jun  8 21:30:03 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gstorms_weather_thunderstorm
+Mon Jun  8 21:30:09 2026	Valll (STEAM_0:0:512645622) spawned SENT gw_trash
+Mon Jun  8 21:30:38 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gstorms_computer
+Mon Jun  8 21:30:54 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gstorms_computer
+Mon Jun  8 21:32:43 2026	Tomlzzz was killed by Entity [0][worldspawn] with a unknown
+Mon Jun  8 21:32:44 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:32:58 2026	Tomlzzz was killed by Entity [98][gstorms_weather_efu_custom] with a gstorms_weather_efu_custom
+Mon Jun  8 21:32:59 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:33:33 2026	Valll (STEAM_0:0:512645622) spawned SENT gw_aim
+Mon Jun  8 21:33:45 2026	Valll (STEAM_0:0:512645622) spawned SENT gw_aim
+Mon Jun  8 21:33:49 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gw_m64
+Mon Jun  8 21:34:00 2026	Tomlzzz was killed by Themself with a suicide trick
+Mon Jun  8 21:34:02 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:34:17 2026	Tomlzzz (STEAM_0:0:489915195) spawned SENT gw_thin_man
+Mon Jun  8 21:34:24 2026	Tomlzzz was killed by Themself with a suicide trick
+Mon Jun  8 21:34:25 2026	Tomlzzz (STEAM_0:0:489915195) spawned
+Mon Jun  8 21:34:45 2026	Tomlzzz was killed by Themself with a suicide trick
