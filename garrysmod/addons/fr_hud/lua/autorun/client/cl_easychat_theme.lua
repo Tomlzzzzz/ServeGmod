@@ -56,6 +56,65 @@ local function apply()
     })
     file.Write("easychat/colors.txt", payload)
 
+    -- DYNAMIC VGUI OVERRIDES (Bypasses Workshop Addon Conflicts)
+    local cbTable = vgui.GetControlTable("ECChatBox")
+    if cbTable then
+        cbTable.Paint = function(self, w, h)
+            local px, py = 6, 0
+            local pw = w - 13
+            local ph = h - 5
+
+            local s = math.max(1, ScrH() / 1080)
+            local r = math.floor(12*s)
+            
+            -- OM Blue glow/border
+            draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
+            draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
+            
+            -- Night blue inner background
+            draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
+
+            -- Divider under tabs
+            surface.SetDrawColor(255, 198, 64, 150)
+            surface.DrawRect(px + 4*s, 28, pw - 8*s, 2)
+        end
+    end
+
+    local tabTable = vgui.GetControlTable("ECChatTab")
+    if tabTable then
+        local oldInit = tabTable.Init
+        tabTable.Init = function(self)
+            oldInit(self)
+            
+            if IsValid(self.TextEntry) then
+                self.TextEntry.Paint = function(_, w, h)
+                    surface.SetDrawColor(0, 0, 0, 150)
+                    surface.DrawRect(0, 0, w, h)
+                end
+                self.TextEntry:SetBackgroundColor(Color(0, 0, 0, 150))
+                self.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
+            end
+
+            local function btn_paint(btn, w, h)
+                if btn:IsHovered() then
+                    surface.SetDrawColor(45, 170, 225, 80)
+                else
+                    surface.SetDrawColor(45, 170, 225, 20)
+                end
+                surface.DrawRect(0, 0, w, h)
+            end
+            
+            if IsValid(self.BtnSwitch) then self.BtnSwitch.Paint = btn_paint end
+            if IsValid(self.BtnEmotePicker) then self.BtnEmotePicker.Paint = btn_paint end
+            if IsValid(self.BtnColorPicker) then self.BtnColorPicker.Paint = btn_paint end
+        end
+    end
+
+    -- Force update existing chatbox if opened
+    if EasyChat.GUI and IsValid(EasyChat.GUI.ChatBox) then
+        EasyChat.GUI.ChatBox.Paint = cbTable.Paint
+    end
+
     return true
 end
 
