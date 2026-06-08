@@ -58,32 +58,45 @@ local function apply()
 
     -- DYNAMIC VGUI OVERRIDES (Bypasses Workshop Addon Conflicts)
     -- DYNAMIC VGUI OVERRIDES (Bypasses Workshop Addon Conflicts)
+    local function MarseilleChatPaint(self, w, h)
+        local px, py = 6, 0
+        local pw = w - 13
+        local ph = h - 5
+
+        local s = math.max(1, ScrH() / 1080)
+        local r = math.floor(12*s)
+        
+        -- OM Blue glow/border
+        draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
+        draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
+        
+        -- Night blue inner background
+        draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
+
+        -- Divider under tabs
+        surface.SetDrawColor(255, 198, 64, 150)
+        surface.DrawRect(px + 4*s, 28, pw - 8*s, 2)
+    end
+
+    local function MarseilleTextEntryPaint(_, w, h)
+        draw.RoundedBox(6, 0, 0, w, h, Color(0, 0, 0, 200))
+        -- Liseré subtil bleu OM en bas de la zone de texte
+        draw.RoundedBox(0, 0, h - 1, w, 1, Color(45, 170, 225, 100))
+    end
+
+    local function btn_paint(btn, w, h)
+        local hover = btn:IsHovered()
+        draw.RoundedBox(6, 0, 0, w, h, hover and Color(45, 170, 225, 120) or Color(11, 23, 42, 200))
+        -- Liseré Or si survolé, sinon Bleu OM
+        draw.RoundedBox(0, 0, h - 1, w, 1, hover and Color(255, 198, 64, 200) or Color(45, 170, 225, 100))
+    end
+
     local cbTable = vgui.GetControlTable("ECChatBox")
     if cbTable then
         local oldCBInit = cbTable.Init
         cbTable.Init = function(self)
             if oldCBInit then oldCBInit(self) end
-            
-            -- Override de Paint pour injecter la DA Marseille RP
-            self.Paint = function(self, w, h)
-                local px, py = 6, 0
-                local pw = w - 13
-                local ph = h - 5
-
-                local s = math.max(1, ScrH() / 1080)
-                local r = math.floor(12*s)
-                
-                -- OM Blue glow/border
-                draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
-                draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
-                
-                -- Night blue inner background
-                draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
-
-                -- Divider under tabs
-                surface.SetDrawColor(255, 198, 64, 150)
-                surface.DrawRect(px + 4*s, 28, pw - 8*s, 2)
-            end
+            self.Paint = MarseilleChatPaint
         end
     end
 
@@ -94,22 +107,11 @@ local function apply()
             if oldInit then oldInit(self) end
             
             if IsValid(self.TextEntry) then
-                self.TextEntry.Paint = function(_, w, h)
-                    draw.RoundedBox(6, 0, 0, w, h, Color(0, 0, 0, 200))
-                    -- Liseré subtil bleu OM en bas de la zone de texte
-                    draw.RoundedBox(0, 0, h - 1, w, 1, Color(45, 170, 225, 100))
-                end
+                self.TextEntry.Paint = MarseilleTextEntryPaint
                 if self.TextEntry.SetBackgroundColor then
                     self.TextEntry:SetBackgroundColor(Color(0, 0, 0, 200))
                     self.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
                 end
-            end
-
-            local function btn_paint(btn, w, h)
-                local hover = btn:IsHovered()
-                draw.RoundedBox(6, 0, 0, w, h, hover and Color(45, 170, 225, 120) or Color(11, 23, 42, 200))
-                -- Liseré Or si survolé, sinon Bleu OM
-                draw.RoundedBox(0, 0, h - 1, w, 1, hover and Color(255, 198, 64, 200) or Color(45, 170, 225, 100))
             end
             
             if IsValid(self.BtnSwitch) then self.BtnSwitch.Paint = btn_paint end
@@ -120,7 +122,27 @@ local function apply()
 
     -- Force update existing chatbox if opened
     if EasyChat.GUI and IsValid(EasyChat.GUI.ChatBox) then
-        EasyChat.GUI.ChatBox.Paint = cbTable.Paint
+        local cb = EasyChat.GUI.ChatBox
+        cb.Paint = MarseilleChatPaint
+        
+        -- Force update existing tabs
+        if cb.Tabs and cb.Tabs.Items then
+            for _, item in pairs(cb.Tabs.Items) do
+                local tab = item.Panel
+                if IsValid(tab) then
+                    if IsValid(tab.TextEntry) then
+                        tab.TextEntry.Paint = MarseilleTextEntryPaint
+                        if tab.TextEntry.SetBackgroundColor then
+                            tab.TextEntry:SetBackgroundColor(Color(0, 0, 0, 200))
+                            tab.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
+                        end
+                    end
+                    if IsValid(tab.BtnSwitch) then tab.BtnSwitch.Paint = btn_paint end
+                    if IsValid(tab.BtnEmotePicker) then tab.BtnEmotePicker.Paint = btn_paint end
+                    if IsValid(tab.BtnColorPicker) then tab.BtnColorPicker.Paint = btn_paint end
+                end
+            end
+        end
     end
 
     return true
