@@ -158,18 +158,13 @@ local MAIN_TAB = {
 			local placeholder_color = Color(text_color.r - 100, text_color.g - 100, text_color.b - 100)
 			self.TextEntry:SetPlaceholderColor(placeholder_color)
 			if can_use_cef and use_new_text_entry then
-				self.TextEntry:SetBackgroundColor(EasyChat.TabColor)
-
-				local border_color = EasyChat.TabOutlineColor.a == 0
-					and EasyChat.OutlayColor or EasyChat.TabOutlineColor
-				self.TextEntry:SetBorderColor(border_color)
+				self.TextEntry:SetBackgroundColor(Color(0, 0, 0, 150))
+				self.TextEntry:SetBorderColor(Color(0, 0, 0, 0))
 				self.TextEntry:SetTextColor(EasyChat.TextColor)
 			else
 				self.TextEntry.Paint = function(_, w, h)
-					local border_color = EasyChat.TabOutlineColor.a == 0
-						and EasyChat.OutlayColor or EasyChat.TabOutlineColor
-					surface.SetDrawColor(border_color)
-					surface.DrawOutlinedRect(0, 0, w, h)
+					surface.SetDrawColor(0, 0, 0, 150)
+					surface.DrawRect(0, 0, w, h)
 				end
 
 				-- this is an ugly hack so we can render the text inside the legacy text entry
@@ -193,16 +188,12 @@ local MAIN_TAB = {
 			end
 
 			local function btn_paint(self, w, h)
-				local col1, col2 = EasyChat.OutlayColor, EasyChat.TabOutlineColor
 				if self:IsHovered() then
-					col1 = Color(col1.r + 50, col1.g + 50, col1.b + 50, col1.a + 50)
-					col2 = Color(255 - col2.r, 255 - col2.g, 255 - col2.b, 255 - col2.a)
+					surface.SetDrawColor(45, 170, 225, 80)
+				else
+					surface.SetDrawColor(45, 170, 225, 20)
 				end
-
-				surface.SetDrawColor(col1)
 				surface.DrawRect(0, 0, w, h)
-				surface.SetDrawColor(col2)
-				surface.DrawOutlinedRect(0, 0, w, h)
 			end
 
 			self.BtnSwitch:SetTextColor(EasyChat.TextColor)

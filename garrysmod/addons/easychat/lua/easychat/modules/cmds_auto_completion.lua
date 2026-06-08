@@ -245,20 +245,28 @@ if CLIENT then
 	local active_options_index = 0
 	local pos_x = 0
 
-	local function DrawMarseilleBox(x, y, text, is_cmd, font)
+	surface.CreateFont("EC_ModernAuto", { font = "Roboto", size = 18, weight = 600, antialias = true, shadow = false })
+
+	local function DrawMarseilleBox(x, y, text, is_cmd)
+		local font = "EC_ModernAuto"
 		surface.SetFont(font)
 		local tw, th = surface.GetTextSize(text)
-		local boxW, boxH = tw + 16, th + 8
+		local boxW, boxH = tw + 20, th + 12
 
-		-- Outline
-		local borderCol = is_cmd and Color(255, 198, 64, 220) or Color(45, 170, 225, 200)
-		draw.RoundedBox(4, x, y, boxW, boxH, borderCol)
-		-- Inside
-		draw.RoundedBox(4, x + 1, y + 1, boxW - 2, boxH - 2, Color(11, 23, 42, 240))
+		-- Ombre douce
+		draw.RoundedBox(6, x + 2, y + 2, boxW, boxH, Color(0, 0, 0, 150))
+
+		-- Background (Bleu nuit moderne)
+		draw.RoundedBox(6, x, y, boxW, boxH, Color(15, 25, 45, 250))
+
+		-- Bordure subtile au lieu d'un trait plein
+		local glowCol = is_cmd and Color(255, 198, 64, 150) or Color(45, 170, 225, 150)
+		draw.RoundedBox(6, x, y, boxW, boxH, glowCol)
+		draw.RoundedBox(6, x + 1, y + 1, boxW - 2, boxH - 2, Color(15, 25, 45, 250))
 
 		-- Text
-		local textCol = is_cmd and Color(255, 198, 64, 255) or color_white
-		draw.SimpleText(text, font, x + 8, y + 4, textCol)
+		local textCol = is_cmd and Color(255, 210, 100, 255) or color_white
+		draw.SimpleText(text, font, x + 10, y + 6, textCol)
 
 		return boxW, boxH
 	end
@@ -328,7 +336,7 @@ if CLIENT then
 			local chat_x, chat_y = chat.GetChatBoxPos()
 			local chat_w = chat.GetChatBoxSize()
 			local above_screen_height = false
-			local option_h = draw.GetFontHeight(option_font) + 10 -- account for wordbox padding
+			local option_h = draw.GetFontHeight("EC_ModernAuto") + 16 -- padding extra pour modernite
 			local i = 1
 			for option in SortedPairs(all_options) do
 				local pos_y = chat_y + ((i + 1) * option_h)
@@ -358,13 +366,13 @@ if CLIENT then
 			local max_w = 0
 			for option, option_args in SortedPairs(all_options) do
 				local pos_y = chat_y + (j * option_h)
-				local option_w = DrawMarseilleBox(pos_x, pos_y, option, true, option_font)
+				local option_w = DrawMarseilleBox(pos_x, pos_y, option, true)
 				if option_w and option_w > max_w then max_w = option_w end
 
-				local cur_x = pos_x + (option_w or 100) + 5
+				local cur_x = pos_x + (option_w or 100) + 8 -- gap plus grand
 				for arg_index, arg in ipairs(option_args) do
-					local arg_w = DrawMarseilleBox(cur_x, pos_y, arg, false, option_font)
-					cur_x = cur_x + (arg_w or 80) + 5
+					local arg_w = DrawMarseilleBox(cur_x, pos_y, arg, false)
+					cur_x = cur_x + (arg_w or 80) + 8
 					if (cur_x - pos_x) > max_w then max_w = (cur_x - pos_x) end
 				end
 
@@ -372,7 +380,7 @@ if CLIENT then
 			end
 
 			if above_screen_height then
-				DrawMarseilleBox(pos_x, chat_y + (i * option_h), "...", false, option_font)
+				DrawMarseilleBox(pos_x, chat_y + (i * option_h), "...", false)
 			end
 
 			if should_left_side then

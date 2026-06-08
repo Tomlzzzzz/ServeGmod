@@ -558,3 +558,9 @@
 
 [22:27:39] New map: gm_construct
 [22:27:48] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[22:29:07] Server is shutting down/changing levels.
+
+
+
+[22:29:08] New map: gm_construct
+[22:29:17] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
