@@ -266,7 +266,7 @@ hook.Add("HUDPaint", "FRHUD_DrawWeaponSelection", function()
             local wepClass = wep:GetClass()
             local wepModel = wep:GetModel() or wep:GetWorldModel()
             
-            if wepModel and wepModel ~= "" and util.IsValidModel(wepModel) then
+            if wepModel and wepModel ~= "" and util.IsValidModel(wepModel) and wepClass ~= "weapon_physgun" then
                 if not IsValid(WepSelect.ModelPanels[wepClass]) then
                     local pnl = vgui.Create("DModelPanel", WepSelect.Container)
                     pnl:SetSize(boxW - S(20), boxH - S(30))
