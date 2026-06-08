@@ -196,11 +196,6 @@
 		"name"		"[Photon] Mercura Vega Lightbar"
 		"path"		"b:\servegmod\steam_cache\content\4000\1671960910\985631076635255805_legacy.bin"
 	}
-	"339648087"
-	{
-		"name"		"Photon 1 (Old Version): Lighting Engine"
-		"path"		"b:\servegmod\steam_cache\content\4000\339648087"
-	}
 	"2110088186"
 	{
 		"name"		"RebS'in Süper Düper Dokuları"

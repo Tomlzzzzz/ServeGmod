@@ -567,3 +567,17 @@
 [22:31:42] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
 [22:31:44] Client "Tomlzzz" connected.
 [22:31:52] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 8 seconds).
+[22:37:09] Server is shutting down/changing levels.
+
+
+
+[22:37:10] New map: gm_construct
+[22:37:19] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[22:38:33] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>
+
+
+
+[22:38:47] New map: gm_construct
+[22:39:55] Client "Tomlzzz" connected.
+[22:40:05] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
+[22:41:06] Dropped "Tomlzzz" from server<STEAM_0:0:489915195>

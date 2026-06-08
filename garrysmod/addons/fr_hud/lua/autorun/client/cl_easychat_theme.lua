@@ -57,26 +57,33 @@ local function apply()
     file.Write("easychat/colors.txt", payload)
 
     -- DYNAMIC VGUI OVERRIDES (Bypasses Workshop Addon Conflicts)
+    -- DYNAMIC VGUI OVERRIDES (Bypasses Workshop Addon Conflicts)
     local cbTable = vgui.GetControlTable("ECChatBox")
     if cbTable then
-        cbTable.Paint = function(self, w, h)
-            local px, py = 6, 0
-            local pw = w - 13
-            local ph = h - 5
-
-            local s = math.max(1, ScrH() / 1080)
-            local r = math.floor(12*s)
+        local oldCBInit = cbTable.Init
+        cbTable.Init = function(self)
+            if oldCBInit then oldCBInit(self) end
             
-            -- OM Blue glow/border
-            draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
-            draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
-            
-            -- Night blue inner background
-            draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
+            -- Override de Paint pour injecter la DA Marseille RP
+            self.Paint = function(self, w, h)
+                local px, py = 6, 0
+                local pw = w - 13
+                local ph = h - 5
 
-            -- Divider under tabs
-            surface.SetDrawColor(255, 198, 64, 150)
-            surface.DrawRect(px + 4*s, 28, pw - 8*s, 2)
+                local s = math.max(1, ScrH() / 1080)
+                local r = math.floor(12*s)
+                
+                -- OM Blue glow/border
+                draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
+                draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
+                
+                -- Night blue inner background
+                draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
+
+                -- Divider under tabs
+                surface.SetDrawColor(255, 198, 64, 150)
+                surface.DrawRect(px + 4*s, 28, pw - 8*s, 2)
+            end
         end
     end
 
