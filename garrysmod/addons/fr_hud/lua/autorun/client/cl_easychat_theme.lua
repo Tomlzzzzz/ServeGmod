@@ -6,14 +6,11 @@
 
 local function apply()
     -- force le strip des tags markup dans le ChatBox
-    local cv = GetConVar("easychat_tags_in_chatbox")
-    if cv then cv:SetInt(0) end
+    RunConsoleCommand("easychat_tags_in_chatbox", "0")
     -- desactive les messages join/leave EasyChat (on a notre propre "Bienvenue")
-    local cvJL = GetConVar("easychat_joinleave_msg")
-    if cvJL then cvJL:SetInt(0) end
+    RunConsoleCommand("easychat_joinleave_msg", "0")
     -- desactive le rechargement de l'historique au boot (evite le spam Photon des sessions precedentes)
-    local cvH = GetConVar("easychat_history")
-    if cvH then cvH:SetInt(0) end
+    RunConsoleCommand("easychat_history", "0")
     -- clean l'historique sauvegarde existant
     if file.Exists("easychat/history/global.txt", "DATA") then
         file.Delete("easychat/history/global.txt")
