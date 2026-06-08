@@ -205,11 +205,25 @@ local CHATBOX = {
 			self.BtnMaxim:SetTextColor(EasyChat.TextColor) --Color(125, 125, 125))
 
 			EasyChat.BlurPanel(self, 6, 0, -13, -5)
+			local matGrad = Material("vgui/gradient-d")
 			self.Paint = function(self, w, h)
-				surface_SetDrawColor(EasyChat.OutlayColor)
-				surface_DrawRect(6, 0, w - 13, 28)
-				surface_SetDrawColor(EasyChat.OutlayOutlineColor)
-				surface_DrawOutlinedRect(6, 0, w - 13, 28)
+				local px, py = 6, 0
+				local pw = w - 13
+				local ph = h - 5
+
+				local s = math.max(1, ScrH() / 1080)
+				local r = math.floor(12*s)
+				
+				-- OM Blue glow/border
+				draw.RoundedBox(r,     px,       py,       pw,       ph,       Color(45, 170, 225, 80))
+				draw.RoundedBox(r - 1, px + 2*s, py + 2*s, pw - 4*s, ph - 4*s, Color(45, 170, 225, 40))
+				
+				-- Night blue inner background
+				draw.RoundedBox(r - 2, px + 3*s, py + 3*s, pw - 6*s, ph - 6*s, Color(11, 23, 42, 240))
+
+				-- Divider under tabs
+				surface_SetDrawColor(255, 198, 64, 150)
+				surface_DrawRect(px + 4*s, 28, pw - 8*s, 2)
 			end
 
 			self.BtnMaxim.Paint = function() end

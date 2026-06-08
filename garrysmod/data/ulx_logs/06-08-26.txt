@@ -552,3 +552,9 @@
 [22:21:45] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 11 seconds).
 [22:22:48] Tomlzzz<STEAM_0:0:489915195> spawned model models/props_combine/weaponstripper.mdl
 [22:23:05] Tomlzzz<STEAM_0:0:489915195> spawned model models/combine_helicopter/helicopter_bomb01.mdl
+[22:27:37] Server is shutting down/changing levels.
+
+
+
+[22:27:39] New map: gm_construct
+[22:27:48] Client "Tomlzzz" spawned in server <STEAM_0:0:489915195> (took 10 seconds).
